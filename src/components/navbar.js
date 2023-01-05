@@ -43,23 +43,31 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/python-intro"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Python Intro
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/applications"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Applications
               </Link>
             </li>
-
+            <li className="nav-item">
+              <Link
+                to="/additional-skills"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Additional Skills
+              </Link>
+            </li>
             <li>
               <Link
                 to="/sign-up"
