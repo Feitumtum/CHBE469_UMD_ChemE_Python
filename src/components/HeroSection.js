@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
-      <h1>JUMPSTART YOUR DATA ANALYSIS JOURNEY</h1>
+      <h1>JUMPSTART YOUR DATA SCIENCE JOURNEY</h1>
       <p>Data science for engineers made by an engineer</p>
       <div className="hero-btns">
         <Button
