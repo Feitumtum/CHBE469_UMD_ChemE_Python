@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            UMD ChemE <i class="fa-brands fa-python"></i>
+            Python for ChemE's <i class="fa-brands fa-python"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -42,29 +42,29 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/python-intro"
+                to="/how-it-works"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Python Intro
+                How It Works
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/applications"
+                to="/modules"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Applications
+                Modules
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/additional-skills"
+                to="/about-us"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Additional Skills
+                About Us
               </Link>
             </li>
             <li>

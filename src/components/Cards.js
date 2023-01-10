@@ -12,20 +12,28 @@ function Cards() {
           <ul className="cards__items">
             <CardItems
               src={require("../images/real-python-basics.jpg")}
-              text="Explore the hidden waterfall"
+              text="Introduction to working with data in Python"
               label="Basics"
               path="/python-intro"
             ></CardItems>
             <CardItems
               src={require("../images/img-2.jpg")}
-              text="Travel to ISLAND"
-              label="Luxury"
+              text="See how we can apply python in class and industry"
+              label="Applications"
+              path="/services"
+            ></CardItems>
+          </ul>
+          <ul className="cards__items">
+            <CardItems
+              src={require("../images/img-9.jpg")}
+              text="See what other data science skills are out there"
+              label="Additional Skills"
               path="/services"
             ></CardItems>
             <CardItems
               src={require("../images/img-9.jpg")}
-              text="Explore the hidden waterfall"
-              label="Adventure"
+              text="Introduction to Machine Learning for ChemE's"
+              label="Additional Skill"
               path="/services"
             ></CardItems>
           </ul>

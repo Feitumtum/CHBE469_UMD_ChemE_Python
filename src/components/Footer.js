@@ -70,46 +70,31 @@ function Footer() {
           </div>
           <small class="website-rights">TRVL © 2020</small>
           <div class="social-icons">
-            <Link
-              class="social-icon-link facebook"
-              to="/"
+            <a
+              class="social-icon-link github"
+              href="https://github.com/Feitumtum"
               target="_blank"
-              aria-label="Facebook"
+              rel="noreferrer"
             >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <i class="fab fa-instagram" />
-            </Link>
+              <i class="fa-brands fa-square-github"></i>
+            </a>
+
             <Link
               class="social-icon-link youtube"
               to="/"
               target="_blank"
               aria-label="Youtube"
             >
-              <i class="fab fa-youtube" />
+              <i class="fa-brands fa-square-youtube"></i>
             </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
+            <a
+              class="social-icon-link github"
+              href="https://www.linkedin.com/in/ziqi-crystal-lin/"
               target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
+              rel="noreferrer"
             >
               <i class="fab fa-linkedin" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
