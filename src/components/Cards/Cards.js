@@ -1,7 +1,6 @@
 import React from "react";
 import CardItems from "./CardItems";
 import "./Cards.css";
-// import image9 from "./public"
 
 function Cards() {
   return (
