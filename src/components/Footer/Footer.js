@@ -8,13 +8,13 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join the Adventure newsletter to receive our best vacation deals
+          Feel free to leave comments / suggestions for website improvement!
         </p>
         <p className="footer-subscription-text">
-          You can unsubscribe at any time.
+          Contact: zlin3377@terpmail.umd.edu
         </p>
         <div className="input-areas">
-          <form>
+          {/* <form>
             <input
               className="footer-input"
               name="email"
@@ -22,10 +22,10 @@ function Footer() {
               placeholder="Your Email"
             />
             <Button buttonStyle="btn--outline">Subscribe</Button>
-          </form>
+          </form> */}
         </div>
       </section>
-      <div class="footer-links">
+      {/* <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
@@ -59,16 +59,14 @@ function Footer() {
             <Link to="/">Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              TRVL
-              <i class="fab fa-typo3" />
+              UMD CHBE469 2023
             </Link>
           </div>
-          <small class="website-rights">TRVL © 2020</small>
           <div class="social-icons">
             <a
               class="social-icon-link github"
