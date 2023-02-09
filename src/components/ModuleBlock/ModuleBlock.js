@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../Buttons/Button";
 import "./ModuleBlock.css";
 
 function ModuleBlock() {
@@ -26,19 +27,28 @@ function ModuleBlock() {
           </div>
           <div className="module-block module-block-content">
             <div className="module-block-topic">
-              <i class="fa-solid fa-desktop"></i>Setting up your workspace
+              <Button buttonType="btn--modules" path="/setup-workspace">
+                <i class="fa-solid fa-desktop fa-fw"></i>Setting up your
+                workspace
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>Python basics using Jupter
-              Notebooks
+              <Button buttonType="btn--modules" path="/python-basics">
+                <i class="fa-brands fa-python fa-fw"></i>Python basics using
+                Jupter Notebooks
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-solid fa-table"></i>Managing data in Python (Numpy
-              and Pandas)
+              <Button buttonType="btn--modules" path="/managing-data">
+                <i class="fa-solid fa-table fa-fw"></i>Managing data in Python
+                (Numpy and Pandas)
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-solid fa-chart-line"></i>Plotting basics in Python
-              (Matplotlib and Seasborn)
+              <Button buttonType="btn--modules" path="/plotting-basics">
+                <i class="fa-solid fa-chart-line fa-fw"></i>Plotting basics in
+                Python (Matplotlib and Seasborn)
+              </Button>
             </div>
           </div>
         </div>

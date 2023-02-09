@@ -8,17 +8,30 @@ import Modules from "./components/pages/Modules";
 import AboutUs from "./components/pages/AboutUs";
 import SignUp from "./components/pages/SignUp";
 
+// Imports for lecture pages
+import SetupWorkspace from "./components/LecturePages/IntroToPython/SetupWorkspace";
+import PythonBasics from "./components/LecturePages/IntroToPython/PythonBasics";
+import ManagingData from "./components/LecturePages/IntroToPython/ManagingData";
+import PlottingBasics from "./components/LecturePages/IntroToPython/PlottingBasics";
+
 function App() {
   return (
     <>
       <Router>
         <Navbar />
         <Routes>
+          {/* Navbar Links */}
           <Route path="/" exact element={<Home />} />
           <Route path="/how-it-works" exact element={<HowItWorks />} />
           <Route path="/modules" exact element={<Modules />} />
           <Route path="/about-us" exact element={<AboutUs />} />
           <Route path="/sign-up" exact element={<SignUp />} />
+
+          {/* Material Pages */}
+          <Route path="/setup-workspace" exact element={<SetupWorkspace />} />
+          <Route path="/python-basics" exact element={<PythonBasics />} />
+          <Route path="/managing-data" exact element={<ManagingData />} />
+          <Route path="/plotting-basics" exact element={<PlottingBasics />} />
         </Routes>
       </Router>
     </>
