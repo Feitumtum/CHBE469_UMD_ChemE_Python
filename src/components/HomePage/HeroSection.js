@@ -15,6 +15,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          path="/modules"
         >
           GET STARTED
         </Button>
