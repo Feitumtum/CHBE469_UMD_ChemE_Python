@@ -14,10 +14,11 @@ function ModuleBlock() {
           {/* 1st Section */}
           <h1>Introduction to Python</h1>
           <p>
-            This section will cover the basics of getting started with python
-            and learning some of the key libraries (Numpy, Pandas, Matplotlib,
-            Seaborn) and teach you how to use them to deal with data using
-            python.
+            Outlined below are the main sections we will cover as well as the
+            individual skills associated with each topic. Feel free to click
+            through each page, but the intent is that you go through them in
+            order. This page should act as your roadmap for the entire course
+            and give a quick glance of everything you will learn!
           </p>
         </div>
         {/* Block 1 */}

@@ -24,9 +24,15 @@ export const Button = ({
     : STYLES[0]; // use deafult style if none is given
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-
   return (
-    <Link to={`${path}`}>
+    <Link
+      to={`${path}`}
+      style={
+        !buttonType.localeCompare("btn--directional")
+          ? {}
+          : { width: "100%", margin: 0 }
+      }
+    >
       <button
         className={`${buttonType} ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

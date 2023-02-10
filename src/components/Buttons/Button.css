@@ -46,14 +46,19 @@
 
 /* CSS for modules buttons */
 .btn--modules {
+  outline: none;
+  border: none;
   cursor: pointer;
-  margin: 0px;
 }
 
 .btn--modules-style {
   background: rgba(0, 0, 0, 0);
+  text-align: left;
+  padding: 15px;
 }
 
 .btn--modules-size {
   font-size: var(--topic-text);
+  width: 100%;
+  height: 100%;
 }
