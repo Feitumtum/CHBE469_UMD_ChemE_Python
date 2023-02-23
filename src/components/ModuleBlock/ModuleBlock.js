@@ -21,6 +21,7 @@ function ModuleBlock() {
             and give a quick glance of everything you will learn!
           </p>
         </div>
+
         {/* Block 1 */}
         <div>
           <div className="module-block module-block-title">
@@ -61,18 +62,26 @@ function ModuleBlock() {
           </div>
           <div className="module-block module-block-content">
             <div className="module-block-topic">
-              <i class="fa-solid fa-chart-pie"></i>Statistical Analysis for
-              Population
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-solid fa-chart-pie fa-fw"></i>Statistical Analysis
+                for Population
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-solid fa-chart-line"></i>Statistical Analysis for
-              Trends
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-solid fa-chart-line fa-fw"></i>Statistical Analysis
+                for Trends
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-solid fa-flask"></i>Python Examples for ChemE Classes
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-solid fa-flask fa-fw"></i>Python Examples for ChemE
+                Classes
+              </Button>
             </div>
           </div>
         </div>
+
         {/* Block 3 */}
         <div>
           <div className="module-block module-block-title">

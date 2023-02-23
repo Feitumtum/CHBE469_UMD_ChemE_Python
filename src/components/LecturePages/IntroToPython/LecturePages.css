@@ -1,0 +1,65 @@
+:root {
+  --header-font-size: 25px;
+  --content-font-size: 15px;
+  --left-margin: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.information-container {
+  margin: 15px 15px 30px var(--left-margin); /*top right bottom left */
+}
+
+.headers {
+  margin-left: var(--left-margin);
+  font-size: var(--header-font-size);
+}
+
+.title-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title-image {
+  border-radius: 25px;
+  box-shadow: 10px 10px lightblue;
+  margin-bottom: 50px;
+}
+
+.information-container-header {
+  color: rgb(135, 126, 132);
+  font-size: var(--header-font-size);
+}
+
+.information-container-content {
+  color: rgb(135, 126, 132);
+  font-size: var(--content-font-size);
+  margin-left: var(--left-margin);
+}
+
+.key-terms-list-header {
+  margin-left: var(--left-margin);
+}
+.key-terms-list {
+  padding-left: 50px;
+  font-size: var(--content-font-size);
+  margin: 10px;
+}
+
+.sample-images {
+  border: 3px solid #656464;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.video-block {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 15px;
+}
