@@ -1,7 +1,7 @@
 :root {
     --heading-text: 40px;
     --sub-heading-text: 25px;
-    --topic-text: 20px;
+    --topic-text: 22px;
     --text-color: color: rgb(41, 52, 68);
     --max-box-width: 800px;
 }
@@ -11,7 +11,7 @@
     padding-top: 25px;
 }
 
-i {
+.modules i {
     margin-right: 15px;
 }
 
@@ -48,7 +48,7 @@ em {
 }
 
 .description-block p {
-    color: rgb(167, 171, 179);
+    color: rgb(79, 80, 82);
     text-align: left;
     margin-top: 5px;
     font-size: var(--topic-text);
@@ -97,4 +97,5 @@ em {
 .right-div {
     flex: 1 1 auto;
     text-align: right;
+    justify-content: center;
 }

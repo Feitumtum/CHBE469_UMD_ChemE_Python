@@ -1,10 +1,16 @@
 import React from "react";
-import { SyntaxHighlighter } from "react-syntax-highlighter";
-import { prism } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { darcula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import "./CodeHighlighter.css";
 
 function CodeHighlighter({ code }) {
   return (
-    <SyntaxHighlighter language="javascript" style={prism} showLineNumbers>
+    <SyntaxHighlighter
+      language="javascript"
+      style={darcula}
+      showLineNumbers
+      className="code-block"
+    >
       {code}
     </SyntaxHighlighter>
   );

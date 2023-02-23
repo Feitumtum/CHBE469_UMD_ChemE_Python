@@ -1,13 +1,13 @@
 import React from "react";
 import "./LecturePages.css";
-import { Checklist } from "../../LectureMaterial/Checklist";
-import { CodeHighlighter } from "../../LectureMaterial/CodeHighlighter";
+import Checklist from "../../LectureMaterial/Checklist";
+import CodeHighlighter from "../../LectureMaterial/CodeHighlighter";
 
 export default function SetupWorkspace() {
-  const obj = [
+  const objectives = [
     "Download and install an IDE (vscode)",
-    "Download and install Git Bash",
-    "Configuring your vscode",
+    "Configuring your vscode with your first extension and change color theme",
+    "Download and install terminal GUI (git bash)",
   ];
 
   const code = `
@@ -30,11 +30,15 @@ export default function SetupWorkspace() {
             height="350"
           ></img>
         </div>
-        <h3 className="headers">Objectives</h3>
-        <Checklist items={obj}></Checklist>
+        <div className="objective-container">
+          <h3 className="headers">
+            <u>Objectives</u>
+          </h3>
+          <Checklist objectives={objectives} />
+        </div>
       </div>
 
-      {/* Blurb 1 */}
+      {/* Section 1 */}
       <div className="information-container">
         <h3 className="information-container-header ">
           Components of a Workspace
@@ -56,7 +60,7 @@ export default function SetupWorkspace() {
           able to develop, run, test, and manage code/projects all in one place.
         </p>
         <br></br>
-        <h4 className="key-terms-list-header">Key Terms</h4>
+        <h4 className="key-terms-list-header headers">Key Terms</h4>
         <ol className="key-terms-list">
           <li>
             Command Line: a user interface that's navigated by typing commands
@@ -83,7 +87,7 @@ export default function SetupWorkspace() {
         </ol>
       </div>
 
-      {/* Blurb 2 */}
+      {/* Section 2 */}
       <div className="information-container">
         <h3 className="information-container-header ">
           Integrated Development Environment (IDE)
@@ -128,7 +132,7 @@ export default function SetupWorkspace() {
               style={{ padding: "5px" }}
             >
               https://code.visualstudio.com/learn/get-started/basics
-            </a>{" "}
+            </a>
             for more information
           </p>
         </p>
@@ -153,7 +157,7 @@ export default function SetupWorkspace() {
         </div>
       </div>
 
-      {/* Blurb 3 */}
+      {/* Section 3 */}
       <div className="information-container">
         <h3 className="information-container-header ">Command Line</h3>
         <br></br>
@@ -163,9 +167,9 @@ export default function SetupWorkspace() {
           are not as common and not the same syntax as typical linux/unix
           commands. Therefore, its better to get a graphical user interface
           (GUI) that uses more common syntax (UNIX) and allows you to use git
-          commands (helpful for working with git repositories)
-          https://git-scm.com/downloads
+          commands (helpful for working with git repositories).
         </p>
+        <br></br>
         <p className="information-container-content">
           You can download it from{" "}
           <a href="https://git-scm.com/downloads" style={{ padding: "5px" }}>
@@ -174,9 +178,11 @@ export default function SetupWorkspace() {
         </p>
       </div>
 
-      {/* Blurb 4 */}
+      {/* Section 4 */}
       <div className="information-container">
-        <h3 className="information-container-header ">Command Line</h3>
+        <h3 className="information-container-header ">
+          Putting it all together
+        </h3>
         <br></br>
         <p className="information-container-content">
           Your computer comes with command line terminals already (Command
@@ -187,13 +193,33 @@ export default function SetupWorkspace() {
           commands (helpful for working with git repositories)
           https://git-scm.com/downloads
         </p>
+        <br></br>
         <p className="information-container-content">
-          You can download it from{" "}
-          <a href="https://git-scm.com/downloads" style={{ padding: "5px" }}>
-            https://git-scm.com/downloads
-          </a>
+          <ul>
+            <li>
+              You can download it from
+              <a
+                href="https://git-scm.com/downloads"
+                style={{ padding: "5px" }}
+              >
+                https://git-scm.com/downloads
+              </a>
+            </li>
+            <li>
+              The installation of git bash has lot of different options to
+              configure your download, therefore, for a first timer who doesn't
+              know what each option means, feel free to follow this link to help
+              guide you
+              <a
+                href="https://git-scm.com/downloads"
+                style={{ padding: "5px" }}
+              >
+                https://adamtheautomator.com/git-bash/
+              </a>
+            </li>
+          </ul>
         </p>
-        {/* <CodeHighlighter code={code} />; */}
+        <CodeHighlighter code={code} />
       </div>
     </>
   );

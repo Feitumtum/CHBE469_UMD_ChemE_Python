@@ -1,15 +1,33 @@
 :root {
   --header-font-size: 25px;
-  --content-font-size: 15px;
+  --content-font-size: 20px;
   --left-margin: 20px;
+  --font-color: rgb(64, 66, 68);
 }
 
-a:hover {
-  text-decoration: underline;
+h4,
+ol,
+ul,
+li,
+p {
+  font-family: "PT Serif Refular", serif;
+  line-height: 26pt;
+}
+
+.objective-container {
+  padding: 10px;
+  margin: 10px 100px 50px 100px;
+  border-radius: 15px;
+  box-shadow: 0 0 0 3px transparent;
+  background: var(--card);
+  box-shadow: 0 0 50px -10px rgba(42, 41, 41, 0.3),
+    0 0 25px -15px rgba(0, 0, 0, 0.3);
+  background-color: #f8f8f8;
 }
 
 .information-container {
-  margin: 15px 15px 30px var(--left-margin); /*top right bottom left */
+  margin: 15px 15px 75px var(--left-margin); /*top right bottom left */
+  border-bottom: black;
 }
 
 .headers {
@@ -29,12 +47,12 @@ a:hover {
 }
 
 .information-container-header {
-  color: rgb(135, 126, 132);
+  color: var(--font-color);
   font-size: var(--header-font-size);
 }
 
 .information-container-content {
-  color: rgb(135, 126, 132);
+  color: var(--font-color);
   font-size: var(--content-font-size);
   margin-left: var(--left-margin);
 }

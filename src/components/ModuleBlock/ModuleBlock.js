@@ -8,17 +8,22 @@ function ModuleBlock() {
       <div className="modules">
         <div className="title-block">
           <i class="fa-brands fa-python"></i>
-          <h3>Overall Roadmap</h3>
+          <h3>Overall Road Map</h3>
         </div>
         <div className="description-block">
           {/* 1st Section */}
-          <h1>Introduction to Python</h1>
+          <h1>Introduction</h1>
           <p>
-            Outlined below are the main sections we will cover as well as the
-            individual skills associated with each topic. Feel free to click
-            through each page, but the intent is that you go through them in
-            order. This page should act as your roadmap for the entire course
-            and give a quick glance of everything you will learn!
+            Outlined below are the main topics/themes we will cover as well as
+            the individual skills associated with each topic. The plan for this
+            course is that you start by learning the basics an fundamentals of
+            python. As you learn new skills, we will show you examples of how
+            you can apply them, either in an chemE example, or real life data
+            analysis example. Therefore, the philosophy is that while we are
+            building a strong fundamental understanding of python, you can see
+            its usage right after you learn a skill. As we can't teach you
+            everything about python, we hope that this course can teach you new
+            skills and encourage you to continue to learn on your own!
           </p>
         </div>
 
@@ -89,21 +94,30 @@ function ModuleBlock() {
           </div>
           <div className="module-block module-block-content">
             <div className="module-block-topic">
-              <div className="left-div">
-                <i class="fa-brands fa-python"></i>CHBE101: Intro to ChemE
-              </div>
-              <div className="right-div">
-                <em>15 min</em>
-              </div>
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-brands fa-python fa-fw"></i>CHBE101: Intro to ChemE
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>CHBE301 Thermodynmaics
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-brands fa-python fa-fw"></i>CHBE301/302:
+                Thermodynamics
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>CHBE410
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-brands fa-python fa-fw"></i>CHBE410: Statistics
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>CHBE410
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-brands fa-python fa-fw"></i>CHBE442: Heat and Mass
+              </Button>
+            </div>
+            <div className="module-block-topic">
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-brands fa-python fa-fw"></i>CHBE437: Unit Ops Lab
+              </Button>
             </div>
           </div>
         </div>
@@ -115,49 +129,24 @@ function ModuleBlock() {
           </div>
           <div className="module-block module-block-content">
             <div className="module-block-topic">
-              <i class="fa-solid fa-code-branch"></i>Git / Version Control
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-solid fa-code-branch fa-fw"></i>Git / Version
+                Control
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>Querying databases / SQL
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-brands fa-python fa-fw"></i>Querying databases /
+                SQL
+              </Button>
             </div>
             <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>CHBE410
-            </div>
-            <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>Continue Learning
+              <Button buttonType="btn--modules" path="/">
+                <i class="fa-brands fa-python fa-fw"></i>Continue Learning
+              </Button>
             </div>
           </div>
         </div>
-
-        {/* Block 5 */}
-        <div>
-          <div className="module-block module-block-title">
-            Machine Learning
-          </div>
-          <div className="module-block module-block-content">
-            <div className="module-block-topic">
-              <i class="fa-solid fa-code-branch"></i>Git / Version Control
-            </div>
-            <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>Querying databases / SQL
-            </div>
-            <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>CHBE410
-            </div>
-            <div className="module-block-topic">
-              <i class="fa-brands fa-python"></i>Continue Learning
-            </div>
-          </div>
-        </div>
-
-        {/* 2nd Section
-        <div className="description-block">
-          <h1>Introduction to Python</h1>
-          <p>
-            The overall structure of this website is split into three main
-            modules: Introduction, Analysis Techniques,and Additional Skills
-          </p>
-        </div> */}
       </div>
     </>
   );
