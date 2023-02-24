@@ -21,17 +21,41 @@ function App() {
         <Navbar />
         <Routes>
           {/* Navbar Links */}
-          <Route path="/" exact element={<Home />} />
-          <Route path="/how-it-works" exact element={<HowItWorks />} />
-          <Route path="/modules" exact element={<Modules />} />
-          <Route path="/about-us" exact element={<AboutUs />} />
-          <Route path="/sign-up" exact element={<SignUp />} />
+          <Route path="/UMD-ChemE-Python" exact element={<Home />} />
+          <Route
+            path="/UMD-ChemE-Python/how-it-works"
+            exact
+            element={<HowItWorks />}
+          />
+          <Route path="/UMD-ChemE-Python/modules" exact element={<Modules />} />
+          <Route
+            path="/UMD-ChemE-Python/about-us"
+            exact
+            element={<AboutUs />}
+          />
+          <Route path="/UMD-ChemE-Python/sign-up" exact element={<SignUp />} />
 
           {/* Material Pages */}
-          <Route path="/setup-workspace" exact element={<SetupWorkspace />} />
-          <Route path="/python-basics" exact element={<PythonBasics />} />
-          <Route path="/managing-data" exact element={<ManagingData />} />
-          <Route path="/plotting-basics" exact element={<PlottingBasics />} />
+          <Route
+            path="/modules/setup-workspace"
+            exact
+            element={<SetupWorkspace />}
+          />
+          <Route
+            path="/modules/python-basics"
+            exact
+            element={<PythonBasics />}
+          />
+          <Route
+            path="/modules/managing-data"
+            exact
+            element={<ManagingData />}
+          />
+          <Route
+            path="/modules/plotting-basics"
+            exact
+            element={<PlottingBasics />}
+          />
         </Routes>
       </Router>
     </>

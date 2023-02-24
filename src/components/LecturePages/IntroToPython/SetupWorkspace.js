@@ -1,7 +1,6 @@
 import React from "react";
 import "./LecturePages.css";
 import Checklist from "../../LectureMaterial/Checklist";
-import CodeHighlighter from "../../LectureMaterial/CodeHighlighter";
 
 export default function SetupWorkspace() {
   const objectives = [
@@ -9,13 +8,6 @@ export default function SetupWorkspace() {
     "Configuring your vscode with your first extension and change color theme",
     "Download and install terminal GUI (git bash)",
   ];
-
-  const code = `
-  function sayHello(name) {
-    console.log('Hello, ' + name + '!');
-  }
-  sayHello('World');
-`;
 
   return (
     <>
@@ -219,7 +211,6 @@ export default function SetupWorkspace() {
             </li>
           </ul>
         </p>
-        <CodeHighlighter code={code} />
       </div>
     </>
   );
