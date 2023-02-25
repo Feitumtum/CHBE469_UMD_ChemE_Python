@@ -53,7 +53,7 @@ export default function SetupWorkspace() {
         </p>
         <br></br>
         <h4 className="key-terms-list-header headers">Key Terms</h4>
-        <ol className="key-terms-list">
+        <ul className="key-terms-list">
           <li>
             Command Line: a user interface that's navigated by typing commands
             at prompts instead of using a mouse.
@@ -76,7 +76,7 @@ export default function SetupWorkspace() {
             syntax error detection and suggestive prompts to help you code
             faster
           </li>
-        </ol>
+        </ul>
       </div>
 
       {/* Section 2 */}
@@ -133,17 +133,19 @@ export default function SetupWorkspace() {
           <iframe
             title="Install vscode"
             width="30%"
-            heigh="100px"
+            height="300px"
             src="https://www.youtube.com/embed/ITxcbrfEcIY"
           ></iframe>
           <iframe
             title="Install vscode"
             width="30%"
+            height="300px"
             src="https://www.youtube.com/embed/SKcZ3cwX8lA"
           ></iframe>
           <iframe
             title="Install vscode"
             width="30%"
+            height="300px"
             src="https://www.youtube.com/embed/HOShAQzOy4Q"
           ></iframe>
         </div>
@@ -160,30 +162,6 @@ export default function SetupWorkspace() {
           commands. Therefore, its better to get a graphical user interface
           (GUI) that uses more common syntax (UNIX) and allows you to use git
           commands (helpful for working with git repositories).
-        </p>
-        <br></br>
-        <p className="information-container-content">
-          You can download it from{" "}
-          <a href="https://git-scm.com/downloads" style={{ padding: "5px" }}>
-            https://git-scm.com/downloads
-          </a>
-        </p>
-      </div>
-
-      {/* Section 4 */}
-      <div className="information-container">
-        <h3 className="information-container-header ">
-          Putting it all together
-        </h3>
-        <br></br>
-        <p className="information-container-content">
-          Your computer comes with command line terminals already (Command
-          Prompt/Powershell for Windows, Terminal for Mac), but their commands
-          are not as common and not the same syntax as typical linux/unix
-          commands. Therefore, its better to get a graphical user interface
-          (GUI) that uses more common syntax (UNIX) and allows you to use git
-          commands (helpful for working with git repositories)
-          https://git-scm.com/downloads
         </p>
         <br></br>
         <p className="information-container-content">
@@ -211,6 +189,16 @@ export default function SetupWorkspace() {
             </li>
           </ul>
         </p>
+      </div>
+
+      {/* Section 4 */}
+      <div className="information-container">
+        <h3 className="information-container-header ">
+          Putting it all together
+        </h3>
+        <br></br>
+        <p className="information-container-content">BLAH BLAH BLAH</p>
+        <br></br>
       </div>
     </>
   );

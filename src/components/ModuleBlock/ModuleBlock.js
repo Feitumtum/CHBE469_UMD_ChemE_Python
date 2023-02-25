@@ -34,25 +34,25 @@ function ModuleBlock() {
           </div>
           <div className="module-block module-block-content">
             <div className="module-block-topic">
-              <Button buttonType="btn--modules" path="/setup-workspace">
+              <Button buttonType="btn--modules" path="/modules/setup-workspace">
                 <i class="fa-solid fa-desktop fa-fw"></i>Setting up your
                 workspace
               </Button>
             </div>
             <div className="module-block-topic">
-              <Button buttonType="btn--modules" path="/python-basics">
+              <Button buttonType="btn--modules" path="/modules/python-basics">
                 <i class="fa-brands fa-python fa-fw"></i>Python basics using
                 Jupter Notebooks
               </Button>
             </div>
             <div className="module-block-topic">
-              <Button buttonType="btn--modules" path="/managing-data">
+              <Button buttonType="btn--modules" path="/modules/managing-data">
                 <i class="fa-solid fa-table fa-fw"></i>Managing data in Python
                 (Numpy and Pandas)
               </Button>
             </div>
             <div className="module-block-topic">
-              <Button buttonType="btn--modules" path="/plotting-basics">
+              <Button buttonType="btn--modules" path="/modules/plotting-basics">
                 <i class="fa-solid fa-chart-line fa-fw"></i>Plotting basics in
                 Python (Matplotlib and Seasborn)
               </Button>

@@ -18,9 +18,25 @@ export default function PythonBasics() {
 
   return (
     <>
-      <Checklist objectives={objectives} />
-      <h1 className="python-basics">python-basics</h1>
-      <CodeHighlighter code={code} />
+      <div>
+        <h1 className="python-basics">python-basics</h1>
+        <div className="title-image-container">
+          {/* <img
+            src={require("../../../images/workspace.jpg")}
+            alt="Italian Trulli"
+            className="title-image"
+            width="450"
+            height="350"
+          ></img> */}
+        </div>
+        <div className="objective-container">
+          <h3 className="headers">
+            <u>Objectives</u>
+          </h3>
+          <Checklist objectives={objectives} />
+        </div>
+        <CodeHighlighter code={code} />
+      </div>
     </>
   );
 }
