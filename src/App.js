@@ -37,22 +37,22 @@ function App() {
 
           {/* Material Pages */}
           <Route
-            path="/modules/setup-workspace"
+            path="/UMD-ChemE-Python/modules/setup-workspace"
             exact
             element={<SetupWorkspace />}
           />
           <Route
-            path="/modules/python-basics"
+            path="/UMD-ChemE-Python/modules/python-basics"
             exact
             element={<PythonBasics />}
           />
           <Route
-            path="/modules/managing-data"
+            path="/UMD-ChemE-Python/modules/managing-data"
             exact
             element={<ManagingData />}
           />
           <Route
-            path="/modules/plotting-basics"
+            path="/UMD-ChemE-Python/modules/plotting-basics"
             exact
             element={<PlottingBasics />}
           />
