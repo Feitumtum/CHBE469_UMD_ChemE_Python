@@ -1,4 +1,17 @@
 .code-block {
   border-radius: 8px;
-  overflow: hidden;
+}
+
+.code-heading-block {
+  text-align: right;
+}
+
+.copy-button {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  color: white;
+  border: none;
 }

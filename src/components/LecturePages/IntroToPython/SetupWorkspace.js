@@ -23,9 +23,6 @@ export default function SetupWorkspace() {
           ></img>
         </div>
         <div className="objective-container">
-          <h3 className="headers">
-            <u>Objectives</u>
-          </h3>
           <Checklist objectives={objectives} />
         </div>
       </div>

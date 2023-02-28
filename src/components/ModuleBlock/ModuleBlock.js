@@ -30,6 +30,50 @@ function ModuleBlock() {
         {/* Block 1 */}
         <div>
           <div className="module-block module-block-title">
+            Setting Up Your Workspace
+          </div>
+          <div className="module-block module-block-content">
+            <div className="module-block-topic">
+              <Button
+                buttonType="btn--modules"
+                path="/UMD-ChemE-Python/modules/setup-workspace"
+              >
+                <i class="fa-solid fa-desktop fa-fw"></i>Visual Studio Code
+                (IDE) and Git bash (command line)
+              </Button>
+            </div>
+            <div className="module-block-topic">
+              <Button
+                buttonType="btn--modules"
+                path="/UMD-ChemE-Python/modules/python-basics"
+              >
+                <i class="fa-brands fa-python fa-fw"></i>Downloading Python
+              </Button>
+            </div>
+            <div className="module-block-topic">
+              <Button
+                buttonType="btn--modules"
+                path="/UMD-ChemE-Python/modules/managing-data"
+              >
+                <i class="fa-solid fa-table fa-fw"></i>Introduction to Jupyter
+                Notebooks
+              </Button>
+            </div>
+            <div className="module-block-topic">
+              <Button
+                buttonType="btn--modules"
+                path="/UMD-ChemE-Python/modules/plotting-basics"
+              >
+                <i class="fa-solid fa-chart-line fa-fw"></i>Making your first
+                line of code
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        {/* Block 1 */}
+        <div>
+          <div className="module-block module-block-title">
             Introduction to Python
           </div>
           <div className="module-block module-block-content">
@@ -38,8 +82,8 @@ function ModuleBlock() {
                 buttonType="btn--modules"
                 path="/UMD-ChemE-Python/modules/setup-workspace"
               >
-                <i class="fa-solid fa-desktop fa-fw"></i>Setting up your
-                workspace
+                <i class="fa-solid fa-desktop fa-fw"></i>Review of Programming
+                Basics
               </Button>
             </div>
             <div className="module-block-topic">
@@ -47,8 +91,7 @@ function ModuleBlock() {
                 buttonType="btn--modules"
                 path="/UMD-ChemE-Python/modules/python-basics"
               >
-                <i class="fa-brands fa-python fa-fw"></i>Python basics using
-                Jupter Notebooks
+                <i class="fa-brands fa-python fa-fw"></i>Basic Data Structures
               </Button>
             </div>
             <div className="module-block-topic">
