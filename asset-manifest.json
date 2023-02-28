@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UMD-ChemE-Python/static/css/main.af4a1653.css",
-    "main.js": "/UMD-ChemE-Python/static/js/main.86c2eef9.js",
+    "main.js": "/UMD-ChemE-Python/static/js/main.f024c438.js",
     "static/media/video-1.mp4": "/UMD-ChemE-Python/static/media/video-1.59e75226d30ad48f9ede.mp4",
     "static/media/img-2.jpg": "/UMD-ChemE-Python/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-9.jpg": "/UMD-ChemE-Python/static/media/img-9.f97f588f3670715d01b2.jpg",
@@ -11,10 +11,10 @@
     "static/media/real-python-basics.jpg": "/UMD-ChemE-Python/static/media/real-python-basics.81b519a241113215bab9.jpg",
     "index.html": "/UMD-ChemE-Python/index.html",
     "main.af4a1653.css.map": "/UMD-ChemE-Python/static/css/main.af4a1653.css.map",
-    "main.86c2eef9.js.map": "/UMD-ChemE-Python/static/js/main.86c2eef9.js.map"
+    "main.f024c438.js.map": "/UMD-ChemE-Python/static/js/main.f024c438.js.map"
   },
   "entrypoints": [
     "static/css/main.af4a1653.css",
-    "static/js/main.86c2eef9.js"
+    "static/js/main.f024c438.js"
   ]
 }
