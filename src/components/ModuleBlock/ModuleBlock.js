@@ -7,7 +7,7 @@ function ModuleBlock() {
     <>
       <div className="modules">
         <div className="title-block">
-          <i class="fa-brands fa-python"></i>
+          <i className="fa-brands fa-python"></i>
           <h3>Overall Road Map</h3>
         </div>
         <div className="description-block">
@@ -36,36 +36,36 @@ function ModuleBlock() {
             <div className="module-block-topic">
               <Button
                 buttonType="btn--modules"
-                path="/UMD-ChemE-Python/modules/setup-workspace"
+                path="/modules/setup-workspace"
               >
-                <i class="fa-solid fa-desktop fa-fw"></i>Visual Studio Code
+                <i className="fa-solid fa-desktop fa-fw"></i>Visual Studio Code
                 (IDE) and Git bash (command line)
               </Button>
             </div>
             <div className="module-block-topic">
               <Button
                 buttonType="btn--modules"
-                path="/UMD-ChemE-Python/modules/python-basics"
+                path="/modules/python-basics"
               >
-                <i class="fa-brands fa-python fa-fw"></i>Downloading Python
+                <i className="fa-brands fa-python fa-fw"></i>Downloading Python
               </Button>
             </div>
             <div className="module-block-topic">
               <Button
                 buttonType="btn--modules"
-                path="/UMD-ChemE-Python/modules/managing-data"
+                path="/modules/managing-data"
               >
-                <i class="fa-solid fa-table fa-fw"></i>Introduction to Jupyter
-                Notebooks
+                <i className="fa-solid fa-table fa-fw"></i>Introduction to
+                Jupyter Notebooks
               </Button>
             </div>
             <div className="module-block-topic">
               <Button
                 buttonType="btn--modules"
-                path="/UMD-ChemE-Python/modules/plotting-basics"
+                path="/modules/plotting-basics"
               >
-                <i class="fa-solid fa-chart-line fa-fw"></i>Making your first
-                line of code
+                <i className="fa-solid fa-chart-line fa-fw"></i>Making your
+                first line of code
               </Button>
             </div>
           </div>
@@ -80,36 +80,37 @@ function ModuleBlock() {
             <div className="module-block-topic">
               <Button
                 buttonType="btn--modules"
-                path="/UMD-ChemE-Python/modules/setup-workspace"
+                path="/modules/setup-workspace"
               >
-                <i class="fa-solid fa-desktop fa-fw"></i>Review of Programming
-                Basics
+                <i className="fa-solid fa-desktop fa-fw"></i>Review of
+                Programming Basics
               </Button>
             </div>
             <div className="module-block-topic">
               <Button
                 buttonType="btn--modules"
-                path="/UMD-ChemE-Python/modules/python-basics"
+                path="/modules/python-basics"
               >
-                <i class="fa-brands fa-python fa-fw"></i>Basic Data Structures
+                <i className="fa-brands fa-python fa-fw"></i>Basic Data
+                Structures
               </Button>
             </div>
             <div className="module-block-topic">
               <Button
                 buttonType="btn--modules"
-                path="/UMD-ChemE-Python/modules/managing-data"
+                path="/modules/managing-data"
               >
-                <i class="fa-solid fa-table fa-fw"></i>Managing data in Python
-                (Numpy and Pandas)
+                <i className="fa-solid fa-table fa-fw"></i>Managing data in
+                Python (Numpy and Pandas)
               </Button>
             </div>
             <div className="module-block-topic">
               <Button
                 buttonType="btn--modules"
-                path="/UMD-ChemE-Python/modules/plotting-basics"
+                path="/modules/plotting-basics"
               >
-                <i class="fa-solid fa-chart-line fa-fw"></i>Plotting basics in
-                Python (Matplotlib and Seasborn)
+                <i className="fa-solid fa-chart-line fa-fw"></i>Plotting basics
+                in Python (Matplotlib and Seasborn)
               </Button>
             </div>
           </div>
@@ -123,20 +124,20 @@ function ModuleBlock() {
           <div className="module-block module-block-content">
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-solid fa-chart-pie fa-fw"></i>Statistical Analysis
-                for Population
+                <i className="fa-solid fa-chart-pie fa-fw"></i>Statistical
+                Analysis for Population
               </Button>
             </div>
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-solid fa-chart-line fa-fw"></i>Statistical Analysis
-                for Trends
+                <i className="fa-solid fa-chart-line fa-fw"></i>Statistical
+                Analysis for Trends
               </Button>
             </div>
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-solid fa-flask fa-fw"></i>Python Examples for ChemE
-                Classes
+                <i className="fa-solid fa-flask fa-fw"></i>Python Examples for
+                ChemE Classes
               </Button>
             </div>
           </div>
@@ -150,28 +151,31 @@ function ModuleBlock() {
           <div className="module-block module-block-content">
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-brands fa-python fa-fw"></i>CHBE101: Intro to ChemE
+                <i className="fa-brands fa-python fa-fw"></i>CHBE101: Intro to
+                ChemE
               </Button>
             </div>
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-brands fa-python fa-fw"></i>CHBE301/302:
+                <i className="fa-brands fa-python fa-fw"></i>CHBE301/302:
                 Thermodynamics
               </Button>
             </div>
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-brands fa-python fa-fw"></i>CHBE410: Statistics
+                <i className="fa-brands fa-python fa-fw"></i>CHBE410: Statistics
               </Button>
             </div>
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-brands fa-python fa-fw"></i>CHBE442: Heat and Mass
+                <i className="fa-brands fa-python fa-fw"></i>CHBE442: Heat and
+                Mass
               </Button>
             </div>
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-brands fa-python fa-fw"></i>CHBE437: Unit Ops Lab
+                <i className="fa-brands fa-python fa-fw"></i>CHBE437: Unit Ops
+                Lab
               </Button>
             </div>
           </div>
@@ -185,19 +189,19 @@ function ModuleBlock() {
           <div className="module-block module-block-content">
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-solid fa-code-branch fa-fw"></i>Git / Version
+                <i className="fa-solid fa-code-branch fa-fw"></i>Git / Version
                 Control
               </Button>
             </div>
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-brands fa-python fa-fw"></i>Querying databases /
-                SQL
+                <i className="fa-brands fa-python fa-fw"></i>Querying databases
+                / SQL
               </Button>
             </div>
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/">
-                <i class="fa-brands fa-python fa-fw"></i>Continue Learning
+                <i className="fa-brands fa-python fa-fw"></i>Continue Learning
               </Button>
             </div>
           </div>

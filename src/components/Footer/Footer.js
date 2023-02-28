@@ -25,9 +25,9 @@ function Footer() {
           </form> */}
         </div>
       </section>
-      {/* <div class="footer-links">
+      {/* <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>About Us</h2>
             <Link to="/sign-up">How it works</Link>
             <Link to="/">Testimonials</Link>
@@ -35,7 +35,7 @@ function Footer() {
             <Link to="/">Investors</Link>
             <Link to="/">Terms of Service</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="/">Contact</Link>
             <Link to="/">Support</Link>
@@ -44,14 +44,14 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Videos</h2>
             <Link to="/">Submit Video</Link>
             <Link to="/">Ambassadors</Link>
             <Link to="/">Agency</Link>
             <Link to="/">Influencer</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Social Media</h2>
             <Link to="/">Instagram</Link>
             <Link to="/">Facebook</Link>
@@ -60,38 +60,38 @@ function Footer() {
           </div>
         </div>
       </div> */}
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="/" className="social-logo">
               UMD CHBE469 2023
             </Link>
           </div>
-          <div class="social-icons">
+          <div className="social-icons">
             <a
-              class="social-icon-link github"
+              className="social-icon-link github"
               href="https://github.com/Feitumtum"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa-brands fa-square-github"></i>
+              <i className="fa-brands fa-square-github"></i>
             </a>
 
             <Link
-              class="social-icon-link youtube"
+              className="social-icon-link youtube"
               to="/"
               target="_blank"
               aria-label="Youtube"
             >
-              <i class="fa-brands fa-square-youtube"></i>
+              <i className="fa-brands fa-square-youtube"></i>
             </Link>
             <a
-              class="social-icon-link github"
+              className="social-icon-link github"
               href="https://www.linkedin.com/in/ziqi-crystal-lin/"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-linkedin" />
+              <i className="fab fa-linkedin" />
             </a>
           </div>
         </div>

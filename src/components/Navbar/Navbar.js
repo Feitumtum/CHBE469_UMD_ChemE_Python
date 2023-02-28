@@ -29,11 +29,11 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link
-            to="/UMD-ChemE-Python"
+            to="/"
             className="navbar-logo"
             onClick={closeMobileMenu}
           >
-            <i class="fa-brands fa-python"></i> for ChemE
+            <i className="fa-brands fa-python"></i> for ChemE
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -41,7 +41,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
-                to="/UMD-ChemE-Python"
+                to="/"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -50,7 +50,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/UMD-ChemE-Python/how-it-works"
+                to="/how-it-works"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -59,7 +59,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/UMD-ChemE-Python/modules"
+                to="/modules"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -68,7 +68,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/UMD-ChemE-Python/about-us"
+                to="/about-us"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -77,7 +77,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/UMD-ChemE-Python/sign-up"
+                to="/sign-up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
@@ -87,7 +87,7 @@ function Navbar() {
           </ul>
           {button && (
             <Button
-              path="/UMD-ChemE-Python/sign-up"
+              path="/sign-up"
               buttonType="btn--directional"
               buttonStyle="btn--outline"
               buttonSize="btn--large"

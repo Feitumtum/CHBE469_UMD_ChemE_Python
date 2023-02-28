@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/HomePage/Home";
 import HowItWorks from "./components/pages/HowItWorks";
 import Modules from "./components/pages/Modules";
@@ -21,38 +21,38 @@ function App() {
         <Navbar />
         <Routes>
           {/* Navbar Links */}
-          <Route path="/UMD-ChemE-Python" exact element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route
-            path="/UMD-ChemE-Python/how-it-works"
+            path="/how-it-works"
             exact
             element={<HowItWorks />}
           />
-          <Route path="/UMD-ChemE-Python/modules" exact element={<Modules />} />
+          <Route path="/modules" exact element={<Modules />} />
           <Route
-            path="/UMD-ChemE-Python/about-us"
+            path="/about-us"
             exact
             element={<AboutUs />}
           />
-          <Route path="/UMD-ChemE-Python/sign-up" exact element={<SignUp />} />
+          <Route path="/sign-up" exact element={<SignUp />} />
 
           {/* Material Pages */}
           <Route
-            path="/UMD-ChemE-Python/modules/setup-workspace"
+            path="/modules/setup-workspace"
             exact
             element={<SetupWorkspace />}
           />
           <Route
-            path="/UMD-ChemE-Python/modules/python-basics"
+            path="/modules/python-basics"
             exact
             element={<PythonBasics />}
           />
           <Route
-            path="/UMD-ChemE-Python/modules/managing-data"
+            path="/modules/managing-data"
             exact
             element={<ManagingData />}
           />
           <Route
-            path="/UMD-ChemE-Python/modules/plotting-basics"
+            path="/modules/plotting-basics"
             exact
             element={<PlottingBasics />}
           />

@@ -19,7 +19,7 @@ function CodeHighlighter({ code, language }) {
         <div className="code-heading-block">
           <CopyToClipboard text={code} onCopy={handleCopy}>
             <button className="copy-button">
-              <i class="fa-regular fa-clipboard fa-fw"></i>{" "}
+              <i className="fa-regular fa-clipboard fa-fw"></i>{" "}
               {copied ? "Copied!" : "Copy Code"}
             </button>
           </CopyToClipboard>

@@ -12,7 +12,7 @@ function HeroSection() {
       <p>Data science for engineers made by an engineer</p>
       <div className="hero-btns">
         <Button
-          path="/UMD-ChemE-Python/modules"
+          path="/modules"
           buttonType="btn--directional"
           buttonStyle="btn--outline"
           buttonSize="btn--large"

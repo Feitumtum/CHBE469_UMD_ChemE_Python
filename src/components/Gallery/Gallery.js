@@ -4,11 +4,11 @@ import background from "../../images/real-python-basics.jpg";
 
 function Gallery() {
   return (
-    <div class="kodfun-galeri-base">
+    <div className="kodfun-galeri-base">
       <div style={{ textAlign: "center", fontSize: "30px" }}>
         Examples of what you'll do!
       </div>
-      <div class="kodfun-galeri">
+      <div className="kodfun-galeri">
         <div style={{ backgroundImage: `url(${background})` }}></div>
         <div style={{ backgroundImage: `url(${background})` }}></div>
         <div style={{ backgroundImage: `url(${background})` }}></div>
