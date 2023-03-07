@@ -14,9 +14,6 @@ function Checklist(props) {
   ));
   return (
     <>
-      <h3 className="headers">
-        <u>Learning Goals</u>
-      </h3>
       <div className="checklist-container">
         <ul className="checklist">{listItems}</ul>
       </div>

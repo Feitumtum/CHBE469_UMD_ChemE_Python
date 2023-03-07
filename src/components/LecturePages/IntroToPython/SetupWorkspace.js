@@ -4,15 +4,23 @@ import Checklist from "../../LectureMaterial/Checklist";
 
 export default function SetupWorkspace() {
   const objectives = [
-    "Download and install an IDE (vscode)",
-    "Configuring your vscode with your first extension and change color theme",
-    "Download and install terminal GUI (git bash)",
+    "Objective 1: Download and install Vscode",
+    "Objective 2: Configuring your vscode with your first extension and change color theme",
+    "Objective 3: Download and install terminal GUI (git bash)",
+  ];
+
+  const tasks = [
+    "Task 1: You were able to make a file",
+    "Task 2: You know where to find and download extensions on vscode",
+    "Task 3: You know how to change the color theme of your vscode",
   ];
 
   return (
     <>
       <div>
-        <h1 style={{ margin: "15px" }}>Setting Up a Workspace</h1>
+        <h1 style={{ margin: "15px" }}>
+          Downloading the tools for your programming environment
+        </h1>
         <div className="title-image-container">
           <img
             src={require("../../../images/workspace.jpg")}
@@ -23,6 +31,9 @@ export default function SetupWorkspace() {
           ></img>
         </div>
         <div className="objective-container">
+          <h3 className="headers">
+            <u>Learning Objectives</u>
+          </h3>
           <Checklist objectives={objectives} />
         </div>
       </div>
@@ -30,7 +41,7 @@ export default function SetupWorkspace() {
       {/* Section 1 */}
       <div className="information-container">
         <h3 className="information-container-header ">
-          Components of a Workspace
+          Introduction: Components of a Workspace
         </h3>
         <br></br>
         <p className="information-container-content">
@@ -79,11 +90,11 @@ export default function SetupWorkspace() {
       {/* Section 2 */}
       <div className="information-container">
         <h3 className="information-container-header ">
-          Integrated Development Environment (IDE)
+          Objective 1: Install Vscode
         </h3>
         <br></br>
         <p className="information-container-content">
-          The first thing we will download is vscode. Vscode is an IDE, which
+          The first thing we will download is Vscode. Vscode is an IDE, which
           means it can act as more than a text editor and is helpful in
           combining different tools a programmer needs, but also allows for a
           lot of personalization and other cool features you can download
@@ -92,9 +103,11 @@ export default function SetupWorkspace() {
         </p>
         <br></br>
         <p className="information-container-content">
-          First, go to
+          Go to
           <a
             href="https://code.visualstudio.com/Download"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ padding: "5px" }}
           >
             https://code.visualstudio.com/Download
@@ -103,6 +116,7 @@ export default function SetupWorkspace() {
           If you have a 32-bit computer you can download the 32-bit. If you
           don't know which bit you have, then the default is 64-bit.
         </p>
+        <br></br>
         <img
           src={require("../../../images/vscode_download.jpg")}
           alt="Italian Trulli"
@@ -110,55 +124,83 @@ export default function SetupWorkspace() {
           className="sample-images"
         ></img>
         <br></br>
-        <p className="information-container-content">
-          Once you download vscode you can follow these three setup video to get
-          started on how to make a file, learn how to install extensions, and
-          customize the color scheme.
-          <p>
-            You can go to the youtube links below or go to
+        <br></br>
+        <h3 className="information-container-header ">
+          Objective 2: Intro to Configuring your Vscode
+        </h3>
+        <br></br>
+        <div>
+          <p className="information-container-content">
+            Once you finish downloading vscode, watch the three videos below to
+            learn some of the basic things you are able to do in Vscode. You can
+            go directly to the youtube links below or click on this links for
+            the source or the videos from the Vscode website.
             <a
               href="https://code.visualstudio.com/learn/get-started/basics"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ padding: "5px" }}
             >
               https://code.visualstudio.com/learn/get-started/basics
             </a>
             for more information
           </p>
-        </p>
-        <br></br>
-        <div className="video-block">
-          <iframe
-            title="Install vscode"
-            width="30%"
-            height="300px"
-            src="https://www.youtube.com/embed/ITxcbrfEcIY"
-          ></iframe>
-          <iframe
-            title="Install vscode"
-            width="30%"
-            height="300px"
-            src="https://www.youtube.com/embed/SKcZ3cwX8lA"
-          ></iframe>
-          <iframe
-            title="Install vscode"
-            width="30%"
-            height="300px"
-            src="https://www.youtube.com/embed/HOShAQzOy4Q"
-          ></iframe>
+          <br></br>
+          <p className="information-container-content"></p>
         </div>
+        <br></br>
+        <div class="row">
+          <div class="column">
+            <h3>Making a File</h3>
+            <iframe
+              title="Install vscode"
+              width="100%"
+              height="300px"
+              src="https://www.youtube.com/embed/ITxcbrfEcIY"
+            ></iframe>
+          </div>
+          <div class="column">
+            <h3>Installing Python Extension</h3>
+            <iframe
+              title="Install vscode"
+              width="100%"
+              height="300px"
+              src="https://www.youtube.com/embed/SKcZ3cwX8lA"
+            ></iframe>
+          </div>
+          <div class="column">
+            <h3>Changing color theme</h3>
+            <iframe
+              title="Install vscode"
+              width="100%"
+              height="300px"
+              src="https://www.youtube.com/embed/HOShAQzOy4Q"
+            ></iframe>
+          </div>
+        </div>
+        <br></br>
+        <h3>Knowledge Check</h3>
+        <p>
+          At the end of these three videos, you should have accomplished these 3
+          things.
+        </p>
+        <Checklist objectives={tasks}></Checklist>
       </div>
 
       {/* Section 3 */}
       <div className="information-container">
-        <h3 className="information-container-header ">Command Line</h3>
+        <h3 className="information-container-header ">
+          Objective 3: Installing a Command Line Graphical User Interface (GUI)
+        </h3>
         <br></br>
         <p className="information-container-content">
           Your computer comes with command line terminals already (Command
           Prompt/Powershell for Windows, Terminal for Mac), but their commands
-          are not as common and not the same syntax as typical linux/unix
-          commands. Therefore, its better to get a graphical user interface
-          (GUI) that uses more common syntax (UNIX) and allows you to use git
-          commands (helpful for working with git repositories).
+          are not as common and not the same syntax as the typical commands we
+          will use for install python packages. Therefore, its better to get a
+          graphical user interface (GUI) that uses more common syntax (UNIX) and
+          allows you to use git commands (helpful for working with git
+          repositories).
         </p>
         <br></br>
         <p className="information-container-content">
@@ -167,6 +209,8 @@ export default function SetupWorkspace() {
               You can download it from
               <a
                 href="https://git-scm.com/downloads"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ padding: "5px" }}
               >
                 https://git-scm.com/downloads
@@ -178,7 +222,9 @@ export default function SetupWorkspace() {
               know what each option means, feel free to follow this link to help
               guide you
               <a
-                href="https://git-scm.com/downloads"
+                href="https://adamtheautomator.com/git-bash/s"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ padding: "5px" }}
               >
                 https://adamtheautomator.com/git-bash/
@@ -191,11 +237,16 @@ export default function SetupWorkspace() {
       {/* Section 4 */}
       <div className="information-container">
         <h3 className="information-container-header ">
-          Putting it all together
+          Explanation of Your Tools
         </h3>
         <br></br>
-        <p className="information-container-content">BLAH BLAH BLAH</p>
+        <p className="information-container-content">
+          Now that you've installed Vscode and Git Bash, lets take a closer look
+          at what they have to offer and give more information about how we will
+          interact with them in this course.
+        </p>
         <br></br>
+        <p className="information-container-content">fff</p>
       </div>
     </>
   );

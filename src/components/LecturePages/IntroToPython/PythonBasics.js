@@ -4,9 +4,10 @@ import CodeHighlighter from "../../LectureMaterial/CodeHighlighter";
 
 export default function PythonBasics() {
   const objectives = [
-    "Download and install an IDE (vscode)",
-    "Configuring your vscode with your first extension and change color theme",
-    "Download and install terminal GUI (git bash)",
+    "Objective 1: Install two versions of Python",
+    "Objective 2: Pip install Jupyter Notebooks",
+    "Objective 3: Understand how to switch between different python versions",
+    "Objective 4: Write your first line of code in Jupyter Notebooks",
   ];
 
   const code = `
@@ -18,7 +19,7 @@ export default function PythonBasics() {
     <>
       <div>
         <h1 style={{ margin: "15px" }}>
-          Introduction to Python Jupyter Notebooks
+          Introduction to Working With Python in Vscode
         </h1>
         <div className="title-image-container">
           <img
@@ -29,23 +30,26 @@ export default function PythonBasics() {
           ></img>
         </div>
         <div className="objective-container">
+          <h3 className="headers">
+            <u>Learning Objectives</u>
+          </h3>
           <Checklist objectives={objectives} />
         </div>
       </div>
 
       {/* Section 1 */}
       <div className="information-container">
-        <h3 className="information-container-header ">
-          Components of a Workspace
-        </h3>
+        <h3 className="information-container-header ">Installing Python</h3>
         <br></br>
         <p className="information-container-content">
-          Similar to how you have a desk setup with a computer, mouse pad,
-          pencil holder, drawers, etc, a programming also needs a workspace that
-          has all the tools they need to code. One of the most important parts
-          of learning to programming is having not only having an environment
-          that has all the tools needed to not only help you get start but also
-          to allow you to grow.
+          As simple as it sound, installing python comes with more information
+          than just clicking download. Python has MANY different version as the
+          makers add new changes and functions. As new updates occur, Python
+          developers doesn't force or suggest like your computer does to update.
+          Tl the different tools are ready to work with a newly released Python.
+          Therefore its important for developers to have different versions of
+          python installed incase the python modules/tools you want to use
+          aren't compatible with newer python versions
         </p>
         <br></br>
         <p className="information-container-content">
