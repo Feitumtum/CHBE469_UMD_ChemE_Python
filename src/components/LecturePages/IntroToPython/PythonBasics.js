@@ -1,6 +1,8 @@
 import React from "react";
 import Checklist from "../../LectureMaterial/Checklist";
 import CodeHighlighter from "../../LectureMaterial/CodeHighlighter";
+import GoToTop from "../../GoToTop";
+import NavFooter from "../../NavFooter/NavFooter";
 
 export default function PythonBasics() {
   const objectives = [
@@ -61,6 +63,10 @@ export default function PythonBasics() {
         <br></br>
         <CodeHighlighter code={code} language="python" />
       </div>
+      <NavFooter
+        backPath="/modules/setup-workspace"
+        forwardPath="/modules/intro-to-jupyter"
+      />
     </>
   );
 }

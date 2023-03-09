@@ -1,0 +1,8 @@
+.nav-footer {
+  display: flex;
+  margin: 50px;
+}
+
+.push-right {
+  margin-left: auto;
+}

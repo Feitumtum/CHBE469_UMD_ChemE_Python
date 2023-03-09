@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../Buttons/Button";
 import "./ModuleBlock.css";
+import GoToTop from "../GoToTop";
 
 function ModuleBlock() {
   return (
@@ -215,6 +216,7 @@ function ModuleBlock() {
           </div>
         </div>
       </div>
+      <GoToTop />
     </>
   );
 }

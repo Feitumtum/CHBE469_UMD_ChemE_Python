@@ -14,6 +14,8 @@ import PythonBasics from "./components/LecturePages/IntroToPython/PythonBasics";
 import ManagingData from "./components/LecturePages/IntroToPython/ManagingData";
 import PlottingBasics from "./components/LecturePages/IntroToPython/PlottingBasics";
 
+import GoToTop from "./components/GoToTop";
+
 function App() {
   return (
     <>
@@ -22,17 +24,9 @@ function App() {
         <Routes>
           {/* Navbar Links */}
           <Route path="/" exact element={<Home />} />
-          <Route
-            path="/how-it-works"
-            exact
-            element={<HowItWorks />}
-          />
+          <Route path="/how-it-works" exact element={<HowItWorks />} />
           <Route path="/modules" exact element={<Modules />} />
-          <Route
-            path="/about-us"
-            exact
-            element={<AboutUs />}
-          />
+          <Route path="/about-us" exact element={<AboutUs />} />
           <Route path="/sign-up" exact element={<SignUp />} />
 
           {/* Material Pages */}
@@ -47,7 +41,7 @@ function App() {
             element={<PythonBasics />}
           />
           <Route
-            path="/modules/managing-data"
+            path="/modules/intro-to-jupyter"
             exact
             element={<ManagingData />}
           />
@@ -57,6 +51,7 @@ function App() {
             element={<PlottingBasics />}
           />
         </Routes>
+        <GoToTop />
       </Router>
     </>
   );

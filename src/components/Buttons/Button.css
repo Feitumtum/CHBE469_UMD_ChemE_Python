@@ -3,7 +3,7 @@
   --topic-text: 20px;
 }
 
-/* CSS for directional buttons */
+/* CSS for top navbar buttons */
 .btn--directional {
   padding: 8px 20px;
   border-radius: 2px;
@@ -61,4 +61,14 @@
   font-size: var(--topic-text);
   width: 100%;
   height: 100%;
+}
+
+/* CSS for nav footer buttons */
+.btn--nav-footer {
+  background-color: #57a161;
+  border-color: #c6c6c6;
+  border-radius: 15px;
+  border-width: 0 0 4px;
+  color: #ffffff;
+  cursor: pointer;
 }
