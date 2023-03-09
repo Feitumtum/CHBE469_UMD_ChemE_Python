@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/UMD-ChemE-Python/static/css/main.f8d916a2.css",
-    "main.js": "/UMD-ChemE-Python/static/js/main.0ca14a9e.js",
+    "main.css": "/UMD-ChemE-Python/static/css/main.95554291.css",
+    "main.js": "/UMD-ChemE-Python/static/js/main.5835c227.js",
     "static/media/video-1.mp4": "/UMD-ChemE-Python/static/media/video-1.59e75226d30ad48f9ede.mp4",
     "static/media/img-2.jpg": "/UMD-ChemE-Python/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-9.jpg": "/UMD-ChemE-Python/static/media/img-9.f97f588f3670715d01b2.jpg",
+    "static/media/default-terminal.png": "/UMD-ChemE-Python/static/media/default-terminal.8b1bbfd7a8a50ee36006.png",
     "static/media/workspace.jpg": "/UMD-ChemE-Python/static/media/workspace.fe3bb85de2a8b71300a6.jpg",
+    "static/media/terminal-in-vscode.png": "/UMD-ChemE-Python/static/media/terminal-in-vscode.d5dca139cc2a770c0098.png",
+    "static/media/choose-terminal.png": "/UMD-ChemE-Python/static/media/choose-terminal.f3c2072806e6fbfc33a1.png",
     "static/media/Jupyter_logo.svg.png": "/UMD-ChemE-Python/static/media/Jupyter_logo.svg.e979c92feec8c52b40c5.png",
     "static/media/vscode_download.jpg": "/UMD-ChemE-Python/static/media/vscode_download.89e673fae48da6a6f55e.jpg",
+    "static/media/terminal.png": "/UMD-ChemE-Python/static/media/terminal.54e97aad159198a4d940.png",
     "static/media/real-python-basics.jpg": "/UMD-ChemE-Python/static/media/real-python-basics.81b519a241113215bab9.jpg",
+    "static/media/git-bash.png": "/UMD-ChemE-Python/static/media/git-bash.ce97b0875e615d908e74.png",
     "index.html": "/UMD-ChemE-Python/index.html",
-    "main.f8d916a2.css.map": "/UMD-ChemE-Python/static/css/main.f8d916a2.css.map",
-    "main.0ca14a9e.js.map": "/UMD-ChemE-Python/static/js/main.0ca14a9e.js.map"
+    "main.95554291.css.map": "/UMD-ChemE-Python/static/css/main.95554291.css.map",
+    "main.5835c227.js.map": "/UMD-ChemE-Python/static/js/main.5835c227.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8d916a2.css",
-    "static/js/main.0ca14a9e.js"
+    "static/css/main.95554291.css",
+    "static/js/main.5835c227.js"
   ]
 }
