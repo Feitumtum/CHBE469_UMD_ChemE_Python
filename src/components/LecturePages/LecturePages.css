@@ -40,9 +40,14 @@ ol {
   font-size: var(--header-font-size);
 }
 
+.title-block {
+  margin: 20px;
+}
+
 .title-image-container {
   display: flex;
   justify-content: center;
+  padding: 30px;
 }
 
 .title-image {

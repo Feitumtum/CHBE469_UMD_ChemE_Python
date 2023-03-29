@@ -2,17 +2,16 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/HomePage/Home";
+import Home from "./components/pages/Home";
 import HowItWorks from "./components/pages/HowItWorks";
 import Modules from "./components/pages/Modules";
 import AboutUs from "./components/pages/AboutUs";
 import SignUp from "./components/pages/SignUp";
 
 // Imports for lecture pages
-import SetupWorkspace from "./components/LecturePages/IntroToPython/SetupWorkspace";
-import PythonBasics from "./components/LecturePages/IntroToPython/PythonBasics";
-import ManagingData from "./components/LecturePages/IntroToPython/ManagingData";
-import PlottingBasics from "./components/LecturePages/IntroToPython/PlottingBasics";
+import SetupWorkspace from "./components/LecturePages/SetupWorkspace/SetupWorkspace";
+import PythonBasics from "./components/LecturePages/SetupWorkspace/PythonBasics";
+import JupyterNotebooks from "./components/LecturePages/SetupWorkspace/JupyterNotebooks";
 
 import GoToTop from "./components/GoToTop";
 
@@ -41,14 +40,9 @@ function App() {
             element={<PythonBasics />}
           />
           <Route
-            path="/modules/intro-to-jupyter"
+            path="/modules/jupyter-notebooks"
             exact
-            element={<ManagingData />}
-          />
-          <Route
-            path="/modules/plotting-basics"
-            exact
-            element={<PlottingBasics />}
+            element={<JupyterNotebooks />}
           />
         </Routes>
         <GoToTop />

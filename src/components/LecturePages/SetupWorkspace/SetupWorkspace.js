@@ -1,5 +1,5 @@
 import React from "react";
-import "./LecturePages.css";
+import "../LecturePages.css";
 import Checklist from "../../LectureMaterial/Checklist";
 import NavFooter from "../../NavFooter/NavFooter";
 
@@ -22,8 +22,6 @@ export default function SetupWorkspace() {
   const obj4 = [
     "Task 1: When you open a new terminal in vscode, it is a git bash terminal",
   ];
-
-  const paths = ["/home", "/about-us"];
 
   return (
     <>

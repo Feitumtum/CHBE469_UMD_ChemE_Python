@@ -9,7 +9,9 @@ function HeroSection() {
       <video src={require("../../videos/video-1.mp4")} autoPlay loop muted />
       {/* <video src={require("../../videos/data-analysis-intro.mp4")} autoPlay loop muted /> */}
       <h1>JUMPSTART YOUR DATA SCIENCE JOURNEY</h1>
-      <p>Data science for engineers made by an engineer</p>
+      <p style={{ textAlign: "center" }}>
+        Data science for engineers made by an engineer
+      </p>
       <div className="hero-btns">
         <Button
           path="/modules"

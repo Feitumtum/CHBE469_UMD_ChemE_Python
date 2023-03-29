@@ -46,15 +46,12 @@ function ModuleBlock() {
               </Button>
             </div>
             <div className="module-block-topic">
-              <Button buttonType="btn--modules" path="/modules/managing-data">
+              <Button
+                buttonType="btn--modules"
+                path="/modules/jupyter-notebooks"
+              >
                 <i className="fa-solid fa-table fa-fw"></i>Introduction to
                 Jupyter Notebooks
-              </Button>
-            </div>
-            <div className="module-block-topic">
-              <Button buttonType="btn--modules" path="/modules/plotting-basics">
-                <i className="fa-solid fa-chart-line fa-fw"></i>Making your
-                first line of code
               </Button>
             </div>
           </div>
