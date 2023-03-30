@@ -67,6 +67,7 @@ em {
     width: min(100% - 25px, 800px);
     padding: 15px;
     margin: auto;
+    font-weight: bold;
 }
 
 .module-block-title {

@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <i className="fa-brands fa-python fa-fw"></i> for ChemE
+            <i className="fa-brands fa-python fa-fw"></i> <b>for ChemE</b>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -37,7 +37,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
+                <b>Home</b>
               </Link>
             </li>
             <li className="nav-item">
@@ -46,7 +46,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                How It Works
+                <b>How It Works</b>
               </Link>
             </li>
             <li className="nav-item">
@@ -55,7 +55,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Modules
+                <b>Modules</b>
               </Link>
             </li>
             <li className="nav-item">
@@ -64,7 +64,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                About Us
+                <b>About Us</b>
               </Link>
             </li>
             <li>
