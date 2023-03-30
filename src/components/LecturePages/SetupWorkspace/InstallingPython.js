@@ -64,7 +64,7 @@ export default function PythonBasics() {
       </div>
       <NavFooter
         backPath="/modules/setup-workspace"
-        forwardPath="/modules/intro-to-jupyter"
+        forwardPath="/modules/jupyter-notebooks"
       />
     </>
   );

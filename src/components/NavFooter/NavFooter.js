@@ -12,7 +12,7 @@ function NavFooter({ backPath, forwardPath }) {
       </div>
       <div className="push-right">
         <Button buttonType="btn--nav-footer" path={forwardPath}>
-          Forward <span>&#8594;</span>
+          Next <span>&#8594;</span>
         </Button>
       </div>
     </div>

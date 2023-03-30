@@ -10,7 +10,7 @@ import SignUp from "./components/pages/SignUp";
 
 // Imports for lecture pages
 import SetupWorkspace from "./components/LecturePages/SetupWorkspace/SetupWorkspace";
-import PythonBasics from "./components/LecturePages/SetupWorkspace/PythonBasics";
+import InstallingPython from "./components/LecturePages/SetupWorkspace/InstallingPython";
 import JupyterNotebooks from "./components/LecturePages/SetupWorkspace/JupyterNotebooks";
 
 import GoToTop from "./components/GoToTop";
@@ -37,7 +37,7 @@ function App() {
           <Route
             path="/modules/python-basics"
             exact
-            element={<PythonBasics />}
+            element={<InstallingPython />}
           />
           <Route
             path="/modules/jupyter-notebooks"

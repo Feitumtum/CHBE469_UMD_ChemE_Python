@@ -26,9 +26,7 @@ export default function SetupWorkspace() {
   return (
     <>
       <div>
-        <h1 style={{ margin: "15px" }}>
-          Downloading the tools for your programming environment
-        </h1>
+        <h1>Downloading the tools for your programming environment</h1>
         <div className="title-image-container">
           <img
             src={require("../../../images/workspace.jpg")}
@@ -39,7 +37,7 @@ export default function SetupWorkspace() {
           ></img>
         </div>
         <div className="objective-container">
-          <h3 className="headers">
+          <h3 className="information-container-header">
             <u>Learning Objectives</u>
           </h3>
           <Checklist objectives={objectives} />
@@ -52,7 +50,7 @@ export default function SetupWorkspace() {
           Introduction: Components of a Workspace
         </h3>
         <br></br>
-        <p className="information-container-content">
+        <p>
           Similar to how you have a desk setup with a computer, mouse pad,
           pencil holder, drawers, etc, a programmer also needs a workspace that
           has all the tools they need to code. One of the most important parts
@@ -61,14 +59,14 @@ export default function SetupWorkspace() {
           a more advanced programmer.
         </p>
         <br></br>
-        <p className="information-container-content">
+        <p>
           The main components to a workspace for programming includes a text
           editor and a terminal that helps you interact with your computer
           through the command line. Once we have these components, we will be
           able to develop, run, test, and manage code/projects all in one place.
         </p>
         <br></br>
-        <h4 className="key-terms-list-header headers">Key Terms</h4>
+        <h4 className="key-terms-list-header">Key Terms</h4>
         <ul className="key-terms-list">
           <li>
             Command Line: a user interface that's navigated by typing commands
@@ -97,11 +95,11 @@ export default function SetupWorkspace() {
 
       {/* Section 2 */}
       <div className="information-container">
-        <h3 className="information-container-header ">
+        <h3 className="information-container-header">
           Objective 1: Install vscode
         </h3>
         <br></br>
-        <p className="information-container-content">
+        <p>
           The first thing we will download is vscode. vscode is an IDE
           (Integrated Development Environment), which means it can act as more
           than a text editor and is helpful in combining different tools a
@@ -111,7 +109,7 @@ export default function SetupWorkspace() {
           creating the base of your programming environment.
         </p>
         <br></br>
-        <p className="information-container-content">
+        <p>
           Go to
           <a
             href="https://code.visualstudio.com/Download"
@@ -139,7 +137,7 @@ export default function SetupWorkspace() {
         </h3>
         <br></br>
         <div>
-          <p className="information-container-content">
+          <p>
             Once you finish downloading vscode, watch the three videos below to
             learn some of the basic things you are able to do in vscode. You can
             go directly to the youtube links below or go to this
@@ -154,7 +152,7 @@ export default function SetupWorkspace() {
             for the source of the videos for more information
           </p>
           <br></br>
-          <p className="information-container-content"></p>
+          <p></p>
         </div>
         <br></br>
         <div class="row">
@@ -201,7 +199,7 @@ export default function SetupWorkspace() {
           Objective 3: Installing a Command Line Graphical User Interface (GUI)
         </h3>
         <br></br>
-        <p className="information-container-content">
+        <p>
           Your computer comes with command line terminals already (Command
           Prompt/Powershell for Windows, Terminal for Mac), but their commands
           are not as common and not the same syntax as the typical commands we
@@ -211,7 +209,7 @@ export default function SetupWorkspace() {
           repositories).
         </p>
         <br></br>
-        <p className="information-container-content">
+        <p>
           <ul>
             <li>
               You can download it from
@@ -258,7 +256,7 @@ export default function SetupWorkspace() {
           Objective 4: Setting up Terminal in vscode
         </h3>
         <br></br>
-        <p className="information-container-content">
+        <p>
           Now that you've installed vscode and Git Bash, lets take a closer look
           at how they will interact with each other. When you open your vscode,
           on the top left, there should be a "Terminal" dropdown. From the
@@ -270,7 +268,7 @@ export default function SetupWorkspace() {
           width={600}
           className="sample-images"
         ></img>
-        <p className="information-container-content">
+        <p>
           You should then see a terminal pop-up on the bottom half of your
           vscode. The default is most likely not git bash depending on if you
           have a window or Mac. Therefore, we can change the default terminal to
@@ -283,7 +281,7 @@ export default function SetupWorkspace() {
           width={600}
           className="sample-images"
         ></img>
-        <p className="information-container-content">
+        <p>
           Then in the middle top of your vscode, a dropdown for all the
           different terminals options will pop up, and you should click Gitbash.
         </p>
@@ -293,7 +291,7 @@ export default function SetupWorkspace() {
           width={800}
           className="sample-images"
         ></img>
-        <p className="information-container-content">
+        <p>
           Now whenever you open a new terminal in vscode it will be a git bash
           terminal. You can tell it is a git bash terminal because of the word
           "bash" in the upper right corner next to the + button.
