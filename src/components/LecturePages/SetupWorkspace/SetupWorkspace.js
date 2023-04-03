@@ -37,19 +37,16 @@ export default function SetupWorkspace() {
           ></img>
         </div>
         <div className="objective-container">
-          <h3 className="information-container-header">
-            <u>Learning Objectives</u>
-          </h3>
+          <h3 className="information-container-header">Learning Objectives</h3>
           <Checklist objectives={objectives} />
         </div>
       </div>
 
       {/* Section 1 */}
       <div className="information-container">
-        <h3 className="information-container-header ">
+        <h3 className="information-container-header">
           Introduction: Components of a Workspace
         </h3>
-        <br></br>
         <p>
           Similar to how you have a desk setup with a computer, mouse pad,
           pencil holder, drawers, etc, a programmer also needs a workspace that
@@ -58,14 +55,12 @@ export default function SetupWorkspace() {
           tools needed to help you get start, but is also flexible as you become
           a more advanced programmer.
         </p>
-        <br></br>
         <p>
           The main components to a workspace for programming includes a text
           editor and a terminal that helps you interact with your computer
           through the command line. Once we have these components, we will be
           able to develop, run, test, and manage code/projects all in one place.
         </p>
-        <br></br>
         <h4 className="key-terms-list-header">Key Terms</h4>
         <ul className="key-terms-list">
           <li>
@@ -98,7 +93,6 @@ export default function SetupWorkspace() {
         <h3 className="information-container-header">
           Objective 1: Install vscode
         </h3>
-        <br></br>
         <p>
           The first thing we will download is vscode. vscode is an IDE
           (Integrated Development Environment), which means it can act as more
@@ -108,7 +102,6 @@ export default function SetupWorkspace() {
           like a one stop shop that combines all the tools you need together,
           creating the base of your programming environment.
         </p>
-        <br></br>
         <p>
           Go to
           <a
@@ -123,19 +116,15 @@ export default function SetupWorkspace() {
           If you have a 32-bit computer you can download the 32-bit. If you
           don't know which bit you have, then the default is 64-bit.
         </p>
-        <br></br>
         <img
           src={require("../../../images/vscode_download.jpg")}
           alt="Italian Trulli"
           width={500}
           className="sample-images"
         ></img>
-        <br></br>
-        <br></br>
         <h3 className="information-container-header ">
           Objective 2: Intro to Configuring your vscode
         </h3>
-        <br></br>
         <div>
           <p>
             Once you finish downloading vscode, watch the three videos below to
@@ -151,10 +140,8 @@ export default function SetupWorkspace() {
             </a>
             for the source of the videos for more information
           </p>
-          <br></br>
           <p></p>
         </div>
-        <br></br>
         <div class="row">
           <div class="column">
             <h3>Making a File</h3>
@@ -184,8 +171,7 @@ export default function SetupWorkspace() {
             ></iframe>
           </div>
         </div>
-        <br></br>
-        <h3>Knowledge Check</h3>
+        <h3 className="information-container-header">Knowledge Check</h3>
         <p>
           At the end of these three videos, you should have accomplished these 3
           things.
@@ -198,7 +184,6 @@ export default function SetupWorkspace() {
         <h3 className="information-container-header ">
           Objective 3: Installing a Command Line Graphical User Interface (GUI)
         </h3>
-        <br></br>
         <p>
           Your computer comes with command line terminals already (Command
           Prompt/Powershell for Windows, Terminal for Mac), but their commands
@@ -208,7 +193,6 @@ export default function SetupWorkspace() {
           and allows you to use git commands (helpful for working with git
           repositories).
         </p>
-        <br></br>
         <p>
           <ul>
             <li>
@@ -238,8 +222,7 @@ export default function SetupWorkspace() {
             </li>
           </ul>
         </p>
-        <br></br>
-        <h3>Knowledge Check</h3>
+        <h3 className="information-container-header">Knowledge Check</h3>
         <Checklist objectives={obj3}></Checklist>
         <p>Should look like the picture below when you open it</p>
         <img
@@ -255,7 +238,6 @@ export default function SetupWorkspace() {
         <h3 className="information-container-header ">
           Objective 4: Setting up Terminal in vscode
         </h3>
-        <br></br>
         <p>
           Now that you've installed vscode and Git Bash, lets take a closer look
           at how they will interact with each other. When you open your vscode,
@@ -265,7 +247,7 @@ export default function SetupWorkspace() {
         <img
           src={require("../../../images/terminal-in-vscode.png")}
           alt="Italian Trulli"
-          width={600}
+          width="75%"
           className="sample-images"
         ></img>
         <p>
@@ -278,7 +260,7 @@ export default function SetupWorkspace() {
         <img
           src={require("../../../images/default-terminal.png")}
           alt="Italian Trulli"
-          width={600}
+          width="75%"
           className="sample-images"
         ></img>
         <p>
@@ -288,7 +270,7 @@ export default function SetupWorkspace() {
         <img
           src={require("../../../images/choose-terminal.png")}
           alt="Italian Trulli"
-          width={800}
+          width="75%"
           className="sample-images"
         ></img>
         <p>
@@ -299,15 +281,15 @@ export default function SetupWorkspace() {
         <img
           src={require("../../../images/terminal.png")}
           alt="Italian Trulli"
-          width={800}
+          width="100%"
           className="sample-images"
         ></img>
-        <h3>Knowledge Check</h3>
+        <h3 className="information-container-header">Knowledge Check</h3>
         <Checklist objectives={obj4}></Checklist>
       </div>
 
       {/* Navigational Buttons*/}
-      <NavFooter backPath="/modules" forwardPath="/modules/python-basics" />
+      <NavFooter backPath="/modules" forwardPath="/modules/installing-python" />
     </>
   );
 }

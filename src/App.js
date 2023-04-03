@@ -35,7 +35,7 @@ function App() {
             element={<SetupWorkspace />}
           />
           <Route
-            path="/modules/python-basics"
+            path="/modules/installing-python"
             exact
             element={<InstallingPython />}
           />

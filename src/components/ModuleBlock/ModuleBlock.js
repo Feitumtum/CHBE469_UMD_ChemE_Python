@@ -41,7 +41,10 @@ function ModuleBlock() {
               </Button>
             </div>
             <div className="module-block-topic">
-              <Button buttonType="btn--modules" path="/modules/python-basics">
+              <Button
+                buttonType="btn--modules"
+                path="/modules/installing-python"
+              >
                 <i className="fa-brands fa-python fa-fw"></i>Downloading Python
               </Button>
             </div>

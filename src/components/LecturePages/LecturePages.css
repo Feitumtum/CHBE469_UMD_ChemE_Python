@@ -1,7 +1,9 @@
 :root {
-  --header-font-size: 25px;
-  --content-font-size: 20px;
+  --header-font-size: 20px;
+  --heading-padding-top-bottom: 20px;
+  --content-font-size: 16px;
   --margins: 100px;
+  --margin-below-paragraph: 25px;
   --font-color: rgb(64, 66, 68);
   --left-margin: 25px;
 }
@@ -14,7 +16,7 @@ h4,
 ul,
 li,
 p {
-  line-height: 28pt;
+  line-height: 24pt;
 }
 
 ul,
@@ -47,14 +49,20 @@ ol {
 
 /* CSS on the content */
 .information-container {
-  margin: 15px var(--margins) 85px var(--margins); /* var(--left-margin); top right bottom left */
+  margin: 15px var(--margins) 75px var(--margins); /* var(--left-margin); top right bottom left */
   color: var(--font-color);
   font-size: var(--content-font-size);
+}
+
+.information-container p {
+  margin: 0px 0px var(--margin-below-paragraph) 0px;
 }
 
 .information-container-header {
   color: var(--font-color);
   font-size: var(--header-font-size);
+  margin-top: var(--heading-padding-top-bottom);
+  margin-bottom: var(--heading-padding-top-bottom);
 }
 
 .key-terms-list {
@@ -67,7 +75,7 @@ ol {
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  margin: 15px 0px 75px 25px;
+  margin-bottom: 50px;
 }
 
 .column {
