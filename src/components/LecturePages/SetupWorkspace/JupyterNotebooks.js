@@ -13,14 +13,21 @@ export default function JupyterNotebooks() {
   ];
 
   const KN1 = [
-    "Task 1: You are able to make a new jupyter notebook file",
-    "Task 2: You are able to select the python version you want to use",
+    "Task 1: You are able to open vscode with in a specific folder / working directory",
+    "Task 2: You are able to make a new jupyter notebook file",
+  ];
+
+  const KN2 = [
+    "Task 1: You are able to install ipykernal if prompted",
+    "Task 2: You are able switch between different python versions in the jupyter notebook file",
   ];
 
   return (
     <>
       <div>
-        <h1 style={{ margin: "15px" }}>Working With Python in Vscode</h1>
+        <h1 style={{ margin: "15px" }}>
+          Working With Jupyter Notebooks in Vscode
+        </h1>
         <div className="title-image-container">
           <img
             src={require("../../../images/jupyter_logo.png")}
@@ -96,17 +103,50 @@ export default function JupyterNotebooks() {
       {/* Section 3 */}
       <div className="information-container">
         <h3 className="information-container-header">
-          Objective 3: Switch between different python versions
+          Objective 3: Learn how to make your first jupyter notebook file
         </h3>
-        <p>Next, create a jupyter notebook file in one of two ways</p>
+        <p>
+          There are various different ways you can start working with files in
+          vscode. Follow the video below for a quick run down of how to either
+          open a file or a folder in vscode.
+        </p>
+        <p>
+          <i>
+            <b>
+              (Note: The first two parts of the video are related to Objective
+              3, but part 3 of the video includes information about objective 4)
+            </b>
+          </i>
+        </p>
+        <iframe
+          title="Install vscode"
+          src="https://www.youtube.com/embed/CKyboLKthI4"
+        ></iframe>
+        <h3 className="information-container-header">Recap</h3>
+        <p>We can create a jupyter notebook file in one of two ways:</p>
+        <h3 className="information-container-header">Option 1</h3>
         <ol style={{ paddingLeft: "25px", paddingBottom: "25px" }}>
           <li>
             Pull up the Command Pallette with the shortcut "Ctrl + Shift + P"
           </li>
-          <li>Process the Data (choose what we want to look at)</li>
-          <li>Analyze the Data (aggregate the data)</li>
-          <li>Plot the Data</li>
+          <li>Search for "new jupyter notebook"</li>
+          <li>Save the file</li>
         </ol>
+        <h3 className="information-container-header">Option 2</h3>
+        <ol style={{ paddingLeft: "25px", paddingBottom: "25px" }}>
+          <li>Right Click in Files Tab</li>
+          <li>Click "New File"</li>
+          <li>Name the file with a ".ipynb" extension</li>
+        </ol>
+        <h3 className="information-container-header">Knowledge Check</h3>
+        <Checklist objectives={KN1}></Checklist>
+      </div>
+
+      {/* Section 4 */}
+      <div className="information-container">
+        <h3 className="information-container-header">
+          Objective 4: Switch between different python versions
+        </h3>
         <p>
           First, we want to understand what does it mean to switch between
           python version. If you followed the previous module of python
@@ -124,8 +164,8 @@ export default function JupyterNotebooks() {
           The reason we need different python versions is because that libraries
           are not programmed by the people who manage the different python
           versions. Therefore, libraries that are not updated alongside the new
-          python versions, errors will occur when you use older libraries with
-          newer python versions. Most of the time, people will not change to new
+          python versions, will run into errors when you used with a newer
+          python versions. Most of the time, people will not change to new
           python versions when they first come out, and commonly transition to
           higher python versions when specific functions in libraries or python
           get deprecated (no longer supported or maintained by its developer)
@@ -134,15 +174,20 @@ export default function JupyterNotebooks() {
           As there different ways to open a jupyter notebook file, please refer
           to this video for the different steps
         </p>
+        <p>
+          <i>
+            <b>
+              (Note: Only the last part of this video is related to switching
+              between python versions)
+            </b>
+          </i>
+        </p>
         <iframe
           title="Install vscode"
-          // width="100%"
-          // width="500px"
-          // height="500px"
-          src="https://www.youtube.com/embed/SKcZ3cwX8lA"
+          src="https://www.youtube.com/embed/CKyboLKthI4"
         ></iframe>
         <h3 className="information-container-header">Knowledge Check</h3>
-        <Checklist objectives={KN1}></Checklist>
+        <Checklist objectives={KN2}></Checklist>
       </div>
       <NavFooter
         backPath="/modules/setup-workspace"

@@ -1,7 +1,6 @@
 import React from "react";
 import "../LecturePages.css";
 import Checklist from "../../LectureMaterial/Checklist";
-import CodeHighlighter from "../../LectureMaterial/CodeHighlighter";
 import NavFooter from "../../NavFooter/NavFooter";
 
 export default function InstallingPython() {
