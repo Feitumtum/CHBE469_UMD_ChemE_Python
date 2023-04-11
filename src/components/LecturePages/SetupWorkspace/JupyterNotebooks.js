@@ -8,8 +8,9 @@ export default function JupyterNotebooks() {
   const objectives = [
     "Objective 1: Understand why we use jupyter notebooks",
     "Objective 2: Download the jupyter notebook extension in vscode",
-    "Objective 3: Understand how to switch between different python versions",
-    "Objective 4: Write your first line of code in Jupyter Notebooks",
+    "Objective 3: Understand how to open a folder and jupyter notebooks in vscode",
+    "Objective 4: Understand how to switch between different python versions",
+    "Objective 5: Write your first line of code in Jupyter Notebooks",
   ];
 
   const KN1 = [
@@ -20,6 +21,13 @@ export default function JupyterNotebooks() {
   const KN2 = [
     "Task 1: You are able to install ipykernal if prompted",
     "Task 2: You are able switch between different python versions in the jupyter notebook file",
+  ];
+
+  const KN3 = [
+    "Task 1: You understand the difference between Code and Markdown Cells",
+    "Task 2: You know how to tell the order cells are run and how running a cell above doesn't override the cells below it",
+    "Task 3: You know how to clear outputs and restart the python kernel",
+    "Task 4: You know how to check what the current values of variables are",
   ];
 
   return (
@@ -81,7 +89,6 @@ export default function JupyterNotebooks() {
           click "Install". Once you download it, you most likely have to restart
           your vscode (close and reopen).
         </p>
-        <p></p>
         <img
           src={require("../../../images/jupyter-extension-1.png")}
           alt="Italian Trulli"
@@ -188,6 +195,35 @@ export default function JupyterNotebooks() {
         ></iframe>
         <h3 className="information-container-header">Knowledge Check</h3>
         <Checklist objectives={KN2}></Checklist>
+      </div>
+
+      {/* Section 5 */}
+      <div className="information-container">
+        <h3 className="information-container-header">
+          Objective 5: Write your first line of code in Jupyter Notebooks
+        </h3>
+        <p>
+          In this section, we will learn about the basics of how jupyter
+          notebooks works. Jupyter Notebooks's main difference from regular
+          programming is the way and order it runs the code. If you have other
+          programming experience, all lines in the file run in order and all
+          together. Therefore, code in a file will all run if you run the file.
+          In Jupyter Notebooks, you run different cells of code. You can run
+          cells one at a time, or all together. The idea that we can code and
+          then see the result is important for data science. Many times we want
+          to see what our code does before deciding if we want to move forward.
+        </p>
+        <p>
+          For a few basic examples of how code works in Jupyter Notebooks,
+          follow the video below to learn how to write your first few lines of
+          code.
+        </p>
+        <iframe
+          title="Install vscode"
+          src="https://www.youtube.com/embed/xJSXs-G9iO8"
+        ></iframe>
+        <h3 className="information-container-header">Knowledge Check</h3>
+        <Checklist objectives={KN3}></Checklist>
       </div>
       <NavFooter
         backPath="/modules/setup-workspace"

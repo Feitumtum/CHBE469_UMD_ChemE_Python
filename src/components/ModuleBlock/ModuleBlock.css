@@ -1,7 +1,7 @@
 :root {
-    --heading-text: 40px;
+    --heading-text: 35px;
     --sub-heading-text: 25px;
-    --topic-text: 22px;
+    --topic-text: 20px;
     --text-color: color: rgb(41, 52, 68);
     --max-box-width: 800px;
 }

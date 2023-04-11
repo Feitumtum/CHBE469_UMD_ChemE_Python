@@ -67,15 +67,14 @@ function ModuleBlock() {
           </div>
           <div className="module-block module-block-content">
             <div className="module-block-topic">
-              <Button buttonType="btn--modules" path="/modules/setup-workspace">
-                <i className="fa-solid fa-desktop fa-fw"></i>Review of
-                Programming Basics
+              <Button buttonType="btn--modules" path="/modules/python-basics">
+                <i className="fa-brands fa-python fa-fw"></i>Math in Python
               </Button>
             </div>
             <div className="module-block-topic">
               <Button buttonType="btn--modules" path="/modules/python-basics">
-                <i className="fa-brands fa-python fa-fw"></i>Basic Data
-                Structures in Python
+                <i className="fa-brands fa-python fa-fw"></i>Data Structures in
+                Python
               </Button>
             </div>
             <div className="module-block-topic">

@@ -4,7 +4,7 @@ import "../LecturePages/LecturePages.css";
 export default function HowItWorks() {
   return (
     <>
-      <div>
+      <div className="modules">
         <div className="title-block">
           <i class="fa-solid fa-map"></i>
           <h3>The Game Plan</h3>
@@ -166,6 +166,7 @@ export default function HowItWorks() {
               src={require("../../images/learning-paths.png")}
               alt="Italian Trulli"
               width="100%"
+              className="sample-images"
             ></img>
           </div>
         </div>
