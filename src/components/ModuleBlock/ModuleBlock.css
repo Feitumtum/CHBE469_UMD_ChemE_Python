@@ -1,9 +1,10 @@
 :root {
-    --heading-text: 35px;
-    --sub-heading-text: 25px;
-    --topic-text: 20px;
+    --heading-text: 30px;
+    --sub-heading-text: 20px;
+    --topic-text: 18px;
     --text-color: color: rgb(41, 52, 68);
     --max-box-width: 800px;
+    --block-corner-radius: 10px;
 }
 
 .modules {
@@ -56,29 +57,31 @@ em {
     margin-right: auto;
 }
 
-.module-block {
+.module-block-container {
+    width: min(100% - 25px, 800px);
+    margin:  auto auto 35px auto;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: var(--topic-text);
+    border-radius: var(--block-corner-radius);
+}
+
+.module-block {
     border-width: 1px;
     border-style: solid;
     border-color: rgb(223, 218, 218);
-    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(237, 238, 239);
-    font-size: var(--topic-text);
-    width: min(100% - 25px, 800px);
-    padding: 15px;
-    margin: auto;
-    font-weight: bold;
+    padding: 15px;   
 }
 
 .module-block-title {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: var(--block-corner-radius);
+    border-top-right-radius: var(--block-corner-radius);
 }
 
 .module-block-content {
-    margin-bottom: 35px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: var(--block-corner-radius);
+    border-bottom-right-radius: var(--block-corner-radius);
 }
 
 .module-block-topic {
