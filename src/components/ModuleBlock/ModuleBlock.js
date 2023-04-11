@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "../Buttons/Button";
 import "./ModuleBlock.css";
 import GoToTop from "../GoToTop";
+import ButtonBlock from "./Block";
 
 function ModuleBlock() {
   return (
@@ -30,34 +31,26 @@ function ModuleBlock() {
 
         {/* Block 1 */}
         <div>
-          <div className="module-block module-block-title">
-            Setting Up Your Workspace
-          </div>
-          <div className="module-block module-block-content">
-            <div className="module-block-topic">
-              <Button buttonType="btn--modules" path="/modules/setup-workspace">
-                <i className="fa-solid fa-desktop fa-fw"></i>Visual Studio Code
-                (IDE) and Git bash (command line)
-              </Button>
-            </div>
-            <div className="module-block-topic">
-              <Button
-                buttonType="btn--modules"
-                path="/modules/installing-python"
-              >
-                <i className="fa-brands fa-python fa-fw"></i>Downloading Python
-              </Button>
-            </div>
-            <div className="module-block-topic">
-              <Button
-                buttonType="btn--modules"
-                path="/modules/jupyter-notebooks"
-              >
-                <i className="fa-solid fa-table fa-fw"></i>Introduction to
-                Jupyter Notebooks
-              </Button>
-            </div>
-          </div>
+          <ButtonBlock
+            title="Setting Up Your Workspace"
+            blockData={[
+              [
+                "Visual Studio Code(IDE) and Git bash (command line)",
+                "fa-solid fa-desktop fa-fw",
+                "/modules/setup-workspace",
+              ],
+              [
+                "Downloading Python",
+                "fa-brands fa-python fa-fw",
+                "/modules/installing-python",
+              ],
+              [
+                "Introduction to Jupyter Notebooks",
+                "fa-solid fa-table fa-fw",
+                "/modules/jupyter-notebooks",
+              ],
+            ]}
+          />
         </div>
 
         {/* Block 1 */}
