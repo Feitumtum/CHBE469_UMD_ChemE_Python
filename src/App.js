@@ -13,6 +13,8 @@ import SetupWorkspace from "./components/LecturePages/SetupWorkspace/SetupWorksp
 import InstallingPython from "./components/LecturePages/SetupWorkspace/InstallingPython";
 import JupyterNotebooks from "./components/LecturePages/SetupWorkspace/JupyterNotebooks";
 import PythonMath from "./components/LecturePages/IntroToPython/PythonMath";
+import DataStructures from "./components/LecturePages/IntroToPython/DataStructures";
+import PythonStatements from "./components/LecturePages/IntroToPython/PythonStatements";
 
 import GoToTop from "./components/GoToTop";
 
@@ -23,29 +25,34 @@ function App() {
         <Navbar />
         <Routes>
           {/* Navbar Links */}
-          <Route path="/" exact element={<Home />} />
-          <Route path="/how-it-works" exact element={<HowItWorks />} />
-          <Route path="/modules" exact element={<Modules />} />
-          <Route path="/about-us" exact element={<AboutUs />} />
-          <Route path="/sign-up" exact element={<SignUp />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/modules" element={<Modules />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/sign-up" element={<SignUp />} />
 
           {/* Material Pages */}
-          <Route
-            path="/modules/setup-workspace"
-            exact
-            element={<SetupWorkspace />}
-          />
+          <Route path="/modules/setup-workspace" element={<SetupWorkspace />} />
+
           <Route
             path="/modules/installing-python"
-            exact
             element={<InstallingPython />}
           />
+
           <Route
             path="/modules/jupyter-notebooks"
-            exact
             element={<JupyterNotebooks />}
           />
-          <Route path="/modules/python-math" exact element={<PythonMath />} />
+          <Route path="/modules/python-math" element={<PythonMath />} />
+
+          <Route
+            path="/modules/python-data-structures"
+            element={<DataStructures />}
+          />
+                    <Route
+            path="/modules/python-statements"
+            element={<PythonStatements />}
+          />
         </Routes>
         <GoToTop />
       </Router>

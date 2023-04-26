@@ -71,25 +71,20 @@ function PythonMath() {
         <p>
           In this first lecture, we will learn about math in python and how we
           can do basic math and how to access variables typically needed by an
-          engineer.
+          engineer. For this lecture, please refer to the Jupyter Notebook
+          Lectures to follow along with the video
         </p>
+      </div>
+
+      <div className="information-container">
+        {" "}
+        <h3 className="information-container-header">Objective 1/2/3</h3>
         <p>
-          For this lecture, please refer to the Jupyter Notebook Lectures to
-          follow along with the video
-        </p>
-        <p>
-          <a
-            href="https://github.com/Feitumtum/CHBE469-Sample-Code"
-            target="_blank"
-            rel="noreferrer"
-            sytle={{ color: "black" }}
-          >
-            <i
-              className="fa-brands fa-square-github fa-2xl"
-              style={{ color: "black" }}
-            ></i>{" "}
-            Module 1 - Lec-1-Basic-Math-CODE.ipynb
-          </a>
+          <i
+            className="fa-brands fa-square-github fa-2xl"
+            style={{ color: "black" }}
+          ></i>{" "}
+          Module 1: Lec-1-Basic-Math-CODE.ipynb
         </p>
         <iframe
           title="Install vscode"

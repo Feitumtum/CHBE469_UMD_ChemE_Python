@@ -59,7 +59,7 @@ export default function Modules() {
             [
               "Data Structures in Python",
               "fa-brands fa-python fa-fw",
-              "/modules/python-basics",
+              "/modules/python-data-structures",
             ],
             [
               "Python Statements (if, for, while, etc)",
@@ -76,7 +76,7 @@ export default function Modules() {
 
         {/* Block 3 */}
         <ModuleBlock
-          title="Working with Data in Python"
+          title="Module 2: Working with Data in Python"
           blockData={[
             [
               "Basics of Numpy",
@@ -94,7 +94,7 @@ export default function Modules() {
               "/modules/managing-data",
             ],
             [
-              "Functions in Python",
+              "Plotting in Python",
               "fa-solid fa-chart-line fa-fw",
               "/modules/plotting-basics",
             ],

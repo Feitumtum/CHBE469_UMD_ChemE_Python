@@ -46,7 +46,81 @@ export default function InstallingPython() {
           through the command line. Once we have these components, we will be
           able to develop, run, test, and manage code/projects all in one place.
         </p>
-        {/* <CodeHighlighter code={code} language="python" /> */}
+
+        <p>
+          To download python, go to Python downloads page
+          <a
+            href="https://www.python.org/downloads/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            HERE
+          </a>
+        </p>
+        <p>
+          We will be downloading each of these Python versions
+          <ul>
+            <li>3.10</li>
+            <li>3.9</li>
+            <li>3.8</li>
+            <li>3.7 (Optional)</li>
+          </ul>
+        </p>
+        <p>
+          On the downloads page, there should be a list of releases. While this
+          might be overwhelming, for each Python version (3.8, 3.9, etc), pick
+          the version with the highest 3rd number. (3.10.10 > 3.10.5)
+        </p>
+        <img
+          src={require("../../../images/python-versions.png")}
+          alt="Italian Trulli"
+          height="350"
+          className="sample-images"
+        ></img>
+
+        <p>
+          After clicking on the downloaded file, go through the installation
+          until you reach this screen
+        </p>
+        <img
+          src={require("../../../images/install-python.jpg")}
+          alt="Italian Trulli"
+          height="350"
+          className="sample-images"
+        ></img>
+        <p>
+          It's important to note that you should{" "}
+          <b style={{ color: "red" }}>
+            only ADD TO PATH for the Python version you want as your default
+            python version
+          </b>
+          . Meaning, if you were to open a terminal and start using python
+          without specifying which version you wanted to use, this will be the
+          default version.
+        </p>
+        <p>
+          Therefore, I suggest you install Python version 3.7 first and install
+          up until version 3.10. Then when installing Python version 3.9, check
+          the box for ADD Python 3.9 to PATH
+        </p>
+        <p>
+          As of right now (4/26/2023), Python 3.9 is still in the middle of its
+          intended usage timeline. Therefore, older versions like 3.7 and 3.8
+          are heading towards end of life, and newer version like 3.10 might not
+          be compatible with older python libraries yet.
+        </p>
+        <img
+          src={require("../../../images/python-release-status.png")}
+          alt="Italian Trulli"
+          height="350"
+          className="sample-images"
+        ></img>
+        <a href="https://devguide.python.org/versions/#python-release-cycle">
+          <i style={{ color: "gray" }}>
+            Source: https://devguide.python.org/versions/#python-release-cycle
+          </i>
+        </a>
       </div>
       <NavFooter
         backPath="/modules/setup-workspace"
