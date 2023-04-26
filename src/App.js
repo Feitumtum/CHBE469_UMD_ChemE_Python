@@ -12,6 +12,7 @@ import SignUp from "./components/pages/SignUp";
 import SetupWorkspace from "./components/LecturePages/SetupWorkspace/SetupWorkspace";
 import InstallingPython from "./components/LecturePages/SetupWorkspace/InstallingPython";
 import JupyterNotebooks from "./components/LecturePages/SetupWorkspace/JupyterNotebooks";
+import PythonMath from "./components/LecturePages/IntroToPython/PythonMath";
 
 import GoToTop from "./components/GoToTop";
 
@@ -44,6 +45,7 @@ function App() {
             exact
             element={<JupyterNotebooks />}
           />
+          <Route path="/modules/python-math" exact element={<PythonMath />} />
         </Routes>
         <GoToTop />
       </Router>

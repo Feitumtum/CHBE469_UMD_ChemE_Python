@@ -227,7 +227,7 @@ export default function JupyterNotebooks() {
       </div>
       <NavFooter
         backPath="/modules/setup-workspace"
-        forwardPath="/modules/jupyter-notebooks"
+        forwardPath="/modules/python-math"
       />
       <Footer></Footer>
     </>

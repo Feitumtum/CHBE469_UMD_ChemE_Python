@@ -49,12 +49,12 @@ export default function Modules() {
 
         {/* Block 2 */}
         <ModuleBlock
-          title="Introduction to Python"
+          title="Module 1: Introduction to Python"
           blockData={[
             [
               "Math in Python",
               "fa-brands fa-python fa-fw",
-              "/modules/python-basics",
+              "/modules/python-math",
             ],
             [
               "Data Structures in Python",
