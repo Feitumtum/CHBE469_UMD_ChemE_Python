@@ -1,5 +1,7 @@
 import React from "react";
 import "../LecturePages/LecturePages.css";
+import Footer from "../Footer/Footer";
+import { Button } from "../Buttons/Button";
 
 export default function HowItWorks() {
   return (
@@ -102,7 +104,7 @@ export default function HowItWorks() {
             trying to give you the tools to make python your one-stop-shop for
             all data analysis, from processing data, plotting, and analysis. As
             you go through the course you will learn different techniques that
-            will give you a comprehensive overview data analysis in python
+            will give you a comprehensive overview of data analysis in python
             useful for engineers.
           </p>
         </div>
@@ -169,7 +171,46 @@ export default function HowItWorks() {
               className="sample-images"
             ></img>
           </div>
+          <div className="description-block">
+            <h1>Accessing Lecture Material</h1>
+            <p>
+              In this course we will use Jupyter Notebooks as our textbook /
+              lecture material. Jupyter Notebooks is like a notebook that allows
+              you to run sections of code one by one and see the output
+              immediately. All Jupyter Notebooks are available on my
+              <a
+                style={{ color: "blue" }}
+                href="https://github.com/Feitumtum/CHBE469-Lecture-Code"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <b> Github </b>
+              </a>
+              and the accompanying videos are posted on
+              <a
+                style={{ color: "blue" }}
+                href="https://github.com/Feitumtum/CHBE469-Lecture-Code"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <b> Youtube</b>
+              </a>
+            </p>
+            <div
+              style={{
+                width: "145px",
+                marginTop: "25px",
+                marginBottom: "50px",
+              }}
+            >
+              <Button buttonType="btn--nav-footer" path="/modules">
+                GET STARTED
+              </Button>
+            </div>
+          </div>
         </div>
+
+        <Footer></Footer>
       </div>
     </>
   );

@@ -2,19 +2,25 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
-import HowItWorks from "./components/pages/HowItWorks";
-import Modules from "./components/pages/Modules";
-import AboutUs from "./components/pages/AboutUs";
-import SignUp from "./components/pages/SignUp";
+import Home from "./components/MainPages/Home";
+import HowItWorks from "./components/MainPages/HowItWorks";
+import Modules from "./components/MainPages/Modules";
+import AboutUs from "./components/MainPages/AboutUs";
+import SignUp from "./components/MainPages/SignUp";
 
 // Imports for lecture pages
-import SetupWorkspace from "./components/LecturePages/SetupWorkspace/SetupWorkspace";
-import InstallingPython from "./components/LecturePages/SetupWorkspace/InstallingPython";
-import JupyterNotebooks from "./components/LecturePages/SetupWorkspace/JupyterNotebooks";
-import PythonMath from "./components/LecturePages/IntroToPython/PythonMath";
-import DataStructures from "./components/LecturePages/IntroToPython/DataStructures";
-import PythonStatements from "./components/LecturePages/IntroToPython/PythonStatements";
+// Module 0
+import SetupWorkspace from "./components/LecturePages/M0SetupWorkspace/SetupWorkspace";
+import InstallingPython from "./components/LecturePages/M0SetupWorkspace/InstallingPython";
+import JupyterNotebooks from "./components/LecturePages/M0SetupWorkspace/JupyterNotebooks";
+
+// Module 1
+import PythonMath from "./components/LecturePages/M1IntroToPython/PythonMath";
+import DataStructures from "./components/LecturePages/M1IntroToPython/DataStructures";
+import PythonStatements from "./components/LecturePages/M1IntroToPython/PythonStatements";
+
+// Module 2
+import Numpy from "./components/LecturePages/M2WorkingWithData/Numpy";
 
 import GoToTop from "./components/GoToTop";
 
@@ -31,28 +37,30 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/sign-up" element={<SignUp />} />
 
-          {/* Material Pages */}
+          {/* Module 0 */}
           <Route path="/modules/setup-workspace" element={<SetupWorkspace />} />
-
           <Route
             path="/modules/installing-python"
             element={<InstallingPython />}
           />
-
           <Route
             path="/modules/jupyter-notebooks"
             element={<JupyterNotebooks />}
           />
-          <Route path="/modules/python-math" element={<PythonMath />} />
 
+          {/* Module 1 */}
+          <Route path="/modules/python-math" element={<PythonMath />} />
           <Route
             path="/modules/python-data-structures"
             element={<DataStructures />}
           />
-                    <Route
+          <Route
             path="/modules/python-statements"
             element={<PythonStatements />}
           />
+
+          {/* Module 2 */}
+          <Route path="/modules/numpy" element={<Numpy />} />
         </Routes>
         <GoToTop />
       </Router>

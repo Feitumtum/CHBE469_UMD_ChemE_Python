@@ -27,7 +27,7 @@ export default function Modules() {
 
         {/* Block 1 */}
         <ModuleBlock
-          title="Setting Up Your Workspace"
+          title="Module 0: Setting Up Your Workspace"
           blockData={[
             [
               "Visual Studio Code (IDE) and Git bash (command line)",
@@ -41,7 +41,7 @@ export default function Modules() {
             ],
             [
               "Introduction to Jupyter Notebooks",
-              "fa-solid fa-table fa-fw",
+              "fa-solid fa-file-code fa-fw",
               "/modules/jupyter-notebooks",
             ],
           ]}
@@ -53,22 +53,22 @@ export default function Modules() {
           blockData={[
             [
               "Math in Python",
-              "fa-brands fa-python fa-fw",
+              "fa-solid fa-calculator fa-fw",
               "/modules/python-math",
             ],
             [
               "Data Structures in Python",
-              "fa-brands fa-python fa-fw",
+              "fa-solid fa-cubes fa-fw",
               "/modules/python-data-structures",
             ],
             [
               "Python Statements (if, for, while, etc)",
-              "fa-solid fa-table fa-fw",
+              "fa-solid fa-scale-balanced fa-fw",
               "/modules/managing-data",
             ],
             [
               "Functions in Python",
-              "fa-solid fa-chart-line fa-fw",
+              "fa-solid fa-laptop-code fa-fw",
               "/modules/plotting-basics",
             ],
           ]}
@@ -80,17 +80,17 @@ export default function Modules() {
           blockData={[
             [
               "Basics of Numpy",
-              "fa-solid fa-desktop fa-fw",
+              "fa-solid fa-cubes fa-fw",
               "/modules/setup-workspace",
             ],
             [
               "Basics of Pandas (Dataframes)",
-              "fa-brands fa-python fa-fw",
+              "fa-solid fa-table fa-fw",
               "/modules/python-basics",
             ],
             [
               "Importing and Manipulating Data",
-              "fa-solid fa-table fa-fw",
+              "fa-solid fa-file-excel fa-fw",
               "/modules/managing-data",
             ],
             [
@@ -103,17 +103,16 @@ export default function Modules() {
 
         {/* Block 4 */}
         <ModuleBlock
-          title="Basics Applications"
+          title="Module 3: Basics Applications"
           blockData={[
             [
               "Statistical Analysis for Population",
-              "fa-solid fa-chart-line fa-fw",
+              "fa-solid fa-chart-simple fa-fw",
               "/path/path",
             ],
-            ["Statistical Analysis for Trends", "fa-solid fa-table fa-fw", "/"],
             [
-              "Python Examples for ChemE Classes",
-              "fa-solid fa-flask fa-fw",
+              "Statistical Analysis for Trends",
+              "fa-solid fa-chart-line fa-fw",
               "/",
             ],
           ]}
@@ -121,26 +120,35 @@ export default function Modules() {
 
         {/* Block 5 */}
         <ModuleBlock
-          title="Applications in ChemE"
+          title="Module 4: Applications in ChemE"
           blockData={[
-            [
-              "CHBE101: Intro to ChemE",
-              "fa-solid fa-chart-pie fa-fw",
-              "/path/path",
-            ],
-            [
-              "CHBE301/302:Thermodynamics",
-              "fa-solid fa-chart-line fa-fw",
-              "/path/path",
-            ],
+            // [
+            //   "CHBE101: Intro to ChemE",
+            //   "fa-solid fa-chart-pie fa-fw",
+            //   "/path/path",
+            // ],
+            // [
+            //   "CHBE301/302:Thermodynamics",
+            //   "fa-solid fa-chart-line fa-fw",
+            //   "/path/path",
+            // ],
             ["CHBE410: Statistics", "fa-solid fa-table fa-fw", "/"],
-            ["CHBE442: Heat and Mass", "fa-solid fa-flask fa-fw", "/"],
-            ["CHBE437: Unit Ops Lab", "fa-solid fa-flask fa-fw", "/"],
+            // ["CHBE442: Heat and Mass", "fa-solid fa-flask fa-fw", "/"],
+            [
+              "CHBE437: Unit Ops Lab (Heat Exchanger)",
+              "fa-solid fa-flask fa-fw",
+              "/",
+            ],
+            [
+              "CHBE437: Unit Ops Lab (Membrane Separation)",
+              "fa-solid fa-flask fa-fw",
+              "/",
+            ],
           ]}
         />
 
         {/* Block 6 */}
-        <ModuleBlock
+        {/* <ModuleBlock
           title="Additional Tools"
           blockData={[
             [
@@ -155,7 +163,7 @@ export default function Modules() {
             ],
             ["Continue Learning", "fa-brands fa-python fa-fw", "/"],
           ]}
-        />
+        /> */}
       </div>
     </>
   );
