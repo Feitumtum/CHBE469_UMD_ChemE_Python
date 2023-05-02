@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/UMD-ChemE-Python/static/css/main.3749c3a7.css",
-    "main.js": "/UMD-ChemE-Python/static/js/main.3ce8ab3e.js",
+    "main.css": "/UMD-ChemE-Python/static/css/main.5e0469f1.css",
+    "main.js": "/UMD-ChemE-Python/static/js/main.80ec6a66.js",
     "static/media/video-1.mp4": "/UMD-ChemE-Python/static/media/video-1.59e75226d30ad48f9ede.mp4",
     "static/media/img-2.jpg": "/UMD-ChemE-Python/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/jupyter-extension-1.png": "/UMD-ChemE-Python/static/media/jupyter-extension-1.4e10e13e04ff15464de5.png",
     "static/media/img-9.jpg": "/UMD-ChemE-Python/static/media/img-9.f97f588f3670715d01b2.jpg",
+    "static/media/python-versions.png": "/UMD-ChemE-Python/static/media/python-versions.ca8dd54ecbaee8f387b8.png",
     "static/media/how-it-works-flow-diagram.png": "/UMD-ChemE-Python/static/media/how-it-works-flow-diagram.02df27f840d3c95717d6.png",
     "static/media/default-terminal.png": "/UMD-ChemE-Python/static/media/default-terminal.8b1bbfd7a8a50ee36006.png",
     "static/media/python-logo.png": "/UMD-ChemE-Python/static/media/python-logo.82efb64f8698a267f8bf.png",
     "static/media/learning-paths.png": "/UMD-ChemE-Python/static/media/learning-paths.d5feccac3c58413ca3f3.png",
     "static/media/workspace.jpg": "/UMD-ChemE-Python/static/media/workspace.fe3bb85de2a8b71300a6.jpg",
+    "static/media/python-release-status.png": "/UMD-ChemE-Python/static/media/python-release-status.498267438062c7fb03e6.png",
+    "static/media/install-python.jpg": "/UMD-ChemE-Python/static/media/install-python.7fb17166582c65e7010c.jpg",
     "static/media/terminal-in-vscode.png": "/UMD-ChemE-Python/static/media/terminal-in-vscode.d5dca139cc2a770c0098.png",
     "static/media/choose-terminal.png": "/UMD-ChemE-Python/static/media/choose-terminal.f3c2072806e6fbfc33a1.png",
     "static/media/jupyter_logo.png": "/UMD-ChemE-Python/static/media/jupyter_logo.e979c92feec8c52b40c5.png",
@@ -19,12 +22,13 @@
     "static/media/terminal.png": "/UMD-ChemE-Python/static/media/terminal.54e97aad159198a4d940.png",
     "static/media/real-python-basics.jpg": "/UMD-ChemE-Python/static/media/real-python-basics.81b519a241113215bab9.jpg",
     "static/media/git-bash.png": "/UMD-ChemE-Python/static/media/git-bash.ce97b0875e615d908e74.png",
+    "static/media/math-pic.jpg": "/UMD-ChemE-Python/static/media/math-pic.8e6a58a14898d02155af.jpg",
     "index.html": "/UMD-ChemE-Python/index.html",
-    "main.3749c3a7.css.map": "/UMD-ChemE-Python/static/css/main.3749c3a7.css.map",
-    "main.3ce8ab3e.js.map": "/UMD-ChemE-Python/static/js/main.3ce8ab3e.js.map"
+    "main.5e0469f1.css.map": "/UMD-ChemE-Python/static/css/main.5e0469f1.css.map",
+    "main.80ec6a66.js.map": "/UMD-ChemE-Python/static/js/main.80ec6a66.js.map"
   },
   "entrypoints": [
-    "static/css/main.3749c3a7.css",
-    "static/js/main.3ce8ab3e.js"
+    "static/css/main.5e0469f1.css",
+    "static/js/main.80ec6a66.js"
   ]
 }
