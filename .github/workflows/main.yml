@@ -8,21 +8,23 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    concurrency: ci-${{github.ref}}
 
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
         with:
           persist-credentials: false
 
       - name: Install 🔧
-        run: npm install
+        run: npm install build
 
       - name: Build 🏗️
         run: |
           npm run build
+
       - name: Deploy to GH Pages 🚀
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: public
+          folder: build
+          branch: gh-pages
