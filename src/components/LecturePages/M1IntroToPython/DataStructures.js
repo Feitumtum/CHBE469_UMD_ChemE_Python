@@ -55,10 +55,16 @@ function Strings() {
 
       <div className="information-container">
         <h3 className="information-container-header">Objective 1</h3>
-        <p>
-          <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
-          Lec-2-Strings-CODE.ipynb
-        </p>
+        <a
+          href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-1/Lec-2-Strings-CODE.ipynb"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p className="lecture-link">
+            <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
+            Lec-2-Strings-CODE.ipynb
+          </p>
+        </a>
         <iframe
           title="Install vscode"
           src="https://www.youtube.com/embed/CKyboLKthI4"
@@ -69,10 +75,16 @@ function Strings() {
 
       <div className="information-container">
         <h3 className="information-container-header">Objective 2 and 3</h3>
-        <p>
-          <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
-          Lec-3-Lists-and-Sets-CODE.ipynb
-        </p>
+        <a
+          href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-1/Lec-3-Lists-and-Sets-CODE.ipynb"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p className="lecture-link">
+            <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
+            Lec-3-Lists-and-Sets-CODE.ipynb
+          </p>
+        </a>
         <iframe
           title="Install vscode"
           src="https://www.youtube.com/embed/CKyboLKthI4"
@@ -83,10 +95,16 @@ function Strings() {
 
       <div className="information-container">
         <h3 className="information-container-header">Objective 4</h3>
-        <p>
-          <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
-          Lec-4-Dictionaries-CODE.ipynb
-        </p>
+        <a
+          href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-1/Lec-4-Dictionaries-CODE.ipynb"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p className="lecture-link">
+            <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
+            Lec-4-Dictionaries-CODE.ipynb
+          </p>
+        </a>
         <iframe
           title="Install vscode"
           src="https://www.youtube.com/embed/CKyboLKthI4"

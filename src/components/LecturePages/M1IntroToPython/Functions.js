@@ -5,18 +5,16 @@ import NavFooter from "../../NavFooter/NavFooter";
 import Footer from "../../Footer/Footer";
 import CodeHighlighter from "../../LectureMaterial/CodeHighlighter";
 
-function PythonStatements() {
+function Functions() {
   const objectives = [
-    "Objective 1: Understand how to use 'If...If Else' Statements",
-    "Objective 2: Understand how to use 'For' Statements",
-    "Objective 3: Understand how to use 'While' Statements",
+    "Objective 1: Understand and know how to make self-defined functions",
   ];
 
   const code1 = "";
   return (
     <>
       <div>
-        <h1 style={{ margin: "15px" }}>Module 1 - Lec 5: Python Statements</h1>
+        <h1 style={{ margin: "15px" }}>Module 1 - Lec 6: Functions</h1>
         <div className="title-image-container">
           {/* <img
                 src={require("../../../images/python-data-structures.webp")}
@@ -34,26 +32,49 @@ function PythonStatements() {
       <div className="information-container">
         <h3 className="information-container-header">Introduction</h3>
         <p>
-          In this lecture, we will introduce three main python statements that
-          are commonly used in programming.
+          In this lecture, we will learn how to make self-defined functions in
+          Python. Similar to MATLAB, Mathcad, or any other programming langugae,
+          we often want to create a self-defined function to help abstract our
+          code. If we are going to use the same code more than 2 times, it is
+          usually worth it to make a function for it.
         </p>
         <p>
-          We go over these data structures and how to use them
-          <ul>
-            <li>If...If Else...Else</li>
-            <li>For Loops</li>
-            <li>While Loops</li>
-          </ul>
+          A simple example of a function that doesn't feel like a function is a
+          mathematical function. Imagine we have f(x) = 2x^2 + x - 1. We can
+          define function named f and takes in the input x. Then whenever we
+          call f(x), 2x^2 + x - 1 will be calculated.
+        </p>
+        <p>
+          For data analysis
+          <ol>
+            <li>Plotting</li>
+            <ul>
+              <li>
+                We often want to create multiple plots for data that has
+                multiple parameters. Therefore, its easier to define a plotting
+                function so we can make 5-10 plots all with one function. This
+                helps ensure each graph has similar formatting.
+              </li>
+            </ul>
+            <li>Analysis</li>
+            <ul>
+              <li>
+                For data aggregation and calculations, its easier to create a
+                function that does the analysis so that we can apply it either
+                group by group or row by row on a DataFrame.
+              </li>
+            </ul>
+          </ol>
         </p>
         <h3 className="information-container-header">Materials</h3>
         <a
-          href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-1/Lec-5-Python-Statements-CODE.ipynb"
+          href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-1/Lec-6-Functions-CODE.ipynb"
           rel="noreferrer"
           target="_blank"
         >
           <p className="lecture-link">
             <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
-            Lec-5-Python-Statements-CODE.ipynb
+            Lec-6-Functions-CODE.ipynb
           </p>
         </a>
         <iframe
@@ -82,8 +103,8 @@ function PythonStatements() {
       </div>
 
       <NavFooter
-        backPath="/modules/python-data-structures"
-        forwardPath="/modules/functions"
+        backPath="/modules/python-statements"
+        forwardPath="/modules/numpy"
       />
 
       <Footer></Footer>
@@ -91,4 +112,4 @@ function PythonStatements() {
   );
 }
 
-export default PythonStatements;
+export default Functions;

@@ -64,12 +64,12 @@ export default function Modules() {
             [
               "Python Statements (if, for, while, etc)",
               "fa-solid fa-scale-balanced fa-fw",
-              "/modules/managing-data",
+              "/modules/python-statements",
             ],
             [
               "Functions in Python",
               "fa-solid fa-laptop-code fa-fw",
-              "/modules/plotting-basics",
+              "/modules/functions",
             ],
           ]}
         />
@@ -78,62 +78,21 @@ export default function Modules() {
         <ModuleBlock
           title="Module 2: Working with Data in Python"
           blockData={[
-            [
-              "Basics of Numpy",
-              "fa-solid fa-cubes fa-fw",
-              "/modules/setup-workspace",
-            ],
-            [
-              "Basics of Pandas (Dataframes)",
-              "fa-solid fa-table fa-fw",
-              "/modules/python-basics",
-            ],
+            ["Basics of Numpy", "fa-solid fa-cubes fa-fw", "/modules/numpy"],
+            ["Basics of Pandas", "fa-solid fa-table fa-fw", "/modules/pandas"],
             [
               "Importing and Manipulating Data",
               "fa-solid fa-file-excel fa-fw",
-              "/modules/managing-data",
+              "",
             ],
-            [
-              "Plotting in Python",
-              "fa-solid fa-chart-line fa-fw",
-              "/modules/plotting-basics",
-            ],
+            ["Plotting in Python", "fa-solid fa-chart-line fa-fw", ""],
           ]}
         />
 
         {/* Block 4 */}
         <ModuleBlock
-          title="Module 3: Basics Applications"
+          title="Module 3: Applications in ChemE"
           blockData={[
-            [
-              "Statistical Analysis for Population",
-              "fa-solid fa-chart-simple fa-fw",
-              "/path/path",
-            ],
-            [
-              "Statistical Analysis for Trends",
-              "fa-solid fa-chart-line fa-fw",
-              "/",
-            ],
-          ]}
-        />
-
-        {/* Block 5 */}
-        <ModuleBlock
-          title="Module 4: Applications in ChemE"
-          blockData={[
-            // [
-            //   "CHBE101: Intro to ChemE",
-            //   "fa-solid fa-chart-pie fa-fw",
-            //   "/path/path",
-            // ],
-            // [
-            //   "CHBE301/302:Thermodynamics",
-            //   "fa-solid fa-chart-line fa-fw",
-            //   "/path/path",
-            // ],
-            ["CHBE410: Statistics", "fa-solid fa-table fa-fw", "/"],
-            // ["CHBE442: Heat and Mass", "fa-solid fa-flask fa-fw", "/"],
             [
               "CHBE437: Unit Ops Lab (Heat Exchanger)",
               "fa-solid fa-flask fa-fw",
@@ -147,7 +106,7 @@ export default function Modules() {
           ]}
         />
 
-        {/* Block 6 */}
+        {/* Block 5 */}
         {/* <ModuleBlock
           title="Additional Tools"
           blockData={[

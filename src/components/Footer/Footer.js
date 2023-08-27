@@ -70,7 +70,7 @@ function Footer() {
           <div className="social-icons">
             <a
               className="social-icon-link github"
-              href="https://github.com/Feitumtum/CHBE469-Sample-Code"
+              href="https://github.com/Feitumtum/CHBE469-Lecture-Code"
               target="_blank"
               rel="noreferrer"
             >

@@ -18,9 +18,11 @@ import JupyterNotebooks from "./components/LecturePages/M0SetupWorkspace/Jupyter
 import PythonMath from "./components/LecturePages/M1IntroToPython/PythonMath";
 import DataStructures from "./components/LecturePages/M1IntroToPython/DataStructures";
 import PythonStatements from "./components/LecturePages/M1IntroToPython/PythonStatements";
+import Functions from "./components/LecturePages/M1IntroToPython/Functions";
 
 // Module 2
 import Numpy from "./components/LecturePages/M2WorkingWithData/Numpy";
+import Pandas from "./components/LecturePages/M2WorkingWithData/Pandas";
 
 import GoToTop from "./components/GoToTop";
 
@@ -36,7 +38,6 @@ function App() {
           <Route path="/modules" element={<Modules />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/sign-up" element={<SignUp />} />
-
           {/* Module 0 */}
           <Route path="/modules/setup-workspace" element={<SetupWorkspace />} />
           <Route
@@ -47,7 +48,6 @@ function App() {
             path="/modules/jupyter-notebooks"
             element={<JupyterNotebooks />}
           />
-
           {/* Module 1 */}
           <Route path="/modules/python-math" element={<PythonMath />} />
           <Route
@@ -58,9 +58,11 @@ function App() {
             path="/modules/python-statements"
             element={<PythonStatements />}
           />
+          <Route path="/modules/functions" element={<Functions />} />
 
           {/* Module 2 */}
           <Route path="/modules/numpy" element={<Numpy />} />
+          <Route path="/modules/pandas" element={<Pandas />} />
         </Routes>
         <GoToTop />
       </Router>

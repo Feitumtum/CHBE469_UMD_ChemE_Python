@@ -77,15 +77,17 @@ function PythonMath() {
       </div>
 
       <div className="information-container">
-        {" "}
         <h3 className="information-container-header">Objective 1/2/3</h3>
-        <p>
-          <i
-            className="fa-brands fa-square-github fa-2xl"
-            style={{ color: "black" }}
-          ></i>{" "}
-          Module 1: Lec-1-Basic-Math-CODE.ipynb
-        </p>
+        <a
+          href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-1/Lec-1-Basic-Math-CODE.ipynb"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p className="lecture-link">
+            <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
+            Lec-1-Basic-Math-CODE.ipynb
+          </p>
+        </a>
         <iframe
           title="Install vscode"
           src="https://www.youtube.com/embed/CKyboLKthI4"

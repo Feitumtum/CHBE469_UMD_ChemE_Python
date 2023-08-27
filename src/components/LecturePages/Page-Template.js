@@ -5,18 +5,14 @@ import NavFooter from "../../NavFooter/NavFooter";
 import Footer from "../../Footer/Footer";
 import CodeHighlighter from "../../LectureMaterial/CodeHighlighter";
 
-function PythonStatements() {
-  const objectives = [
-    "Objective 1: Understand how to use 'If...If Else' Statements",
-    "Objective 2: Understand how to use 'For' Statements",
-    "Objective 3: Understand how to use 'While' Statements",
-  ];
+function PageName() {
+  const objectives = ["Objective 1:", "Objective 2:", "Objective 3:"];
 
   const code1 = "";
   return (
     <>
       <div>
-        <h1 style={{ margin: "15px" }}>Module 1 - Lec 5: Python Statements</h1>
+        <h1 style={{ margin: "15px" }}>TITLE OF PAGE</h1>
         <div className="title-image-container">
           {/* <img
                 src={require("../../../images/python-data-structures.webp")}
@@ -33,29 +29,28 @@ function PythonStatements() {
 
       <div className="information-container">
         <h3 className="information-container-header">Introduction</h3>
+        <p>Intro stuff about topic</p>
         <p>
-          In this lecture, we will introduce three main python statements that
-          are commonly used in programming.
-        </p>
-        <p>
-          We go over these data structures and how to use them
+          LIST IF NEEDED
           <ul>
-            <li>If...If Else...Else</li>
-            <li>For Loops</li>
-            <li>While Loops</li>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
           </ul>
         </p>
         <h3 className="information-container-header">Materials</h3>
-        <a
-          href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-1/Lec-5-Python-Statements-CODE.ipynb"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <p className="lecture-link">
-            <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
-            Lec-5-Python-Statements-CODE.ipynb
-          </p>
-        </a>
+        <p>
+          <a
+            href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-2/Lec-2-Pandas-CODE.ipynb"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <p className="lecture-link">
+              <i className="fa-brands fa-square-github fa-2xl"></i> CODE FILE
+              NAME
+            </p>
+          </a>
+        </p>
         <iframe
           title="Install vscode"
           src="https://www.youtube.com/embed/CKyboLKthI4"
@@ -81,14 +76,11 @@ function PythonStatements() {
         <CodeHighlighter code={code1} language="python"></CodeHighlighter>
       </div>
 
-      <NavFooter
-        backPath="/modules/python-data-structures"
-        forwardPath="/modules/functions"
-      />
+      <NavFooter backPath="/modules/" forwardPath="/modules/" />
 
       <Footer></Footer>
     </>
   );
 }
 
-export default PythonStatements;
+export default Pandas;

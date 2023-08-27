@@ -5,18 +5,14 @@ import NavFooter from "../../NavFooter/NavFooter";
 import Footer from "../../Footer/Footer";
 import CodeHighlighter from "../../LectureMaterial/CodeHighlighter";
 
-function PythonStatements() {
-  const objectives = [
-    "Objective 1: Understand how to use 'If...If Else' Statements",
-    "Objective 2: Understand how to use 'For' Statements",
-    "Objective 3: Understand how to use 'While' Statements",
-  ];
+function Pandas() {
+  const objectives = ["Objective 1:", "Objective 2:", "Objective 3:"];
 
   const code1 = "";
   return (
     <>
       <div>
-        <h1 style={{ margin: "15px" }}>Module 1 - Lec 5: Python Statements</h1>
+        <h1 style={{ margin: "15px" }}>Module 2 - Lec 2: Pandas</h1>
         <div className="title-image-container">
           {/* <img
                 src={require("../../../images/python-data-structures.webp")}
@@ -34,28 +30,34 @@ function PythonStatements() {
       <div className="information-container">
         <h3 className="information-container-header">Introduction</h3>
         <p>
-          In this lecture, we will introduce three main python statements that
-          are commonly used in programming.
+          In this lecture, we will learn about the Pandas Python library. The
+          most important use of Pandas is the DataFrame data structure. We can
+          think of a DataFrame similar to working with the cells in excel. The
+          advantage over excel (in my opinion) is that it is much easier to
+          group data together and analysis all at once. Pandas also gives us the
+          ability to import data from Excels.
         </p>
         <p>
-          We go over these data structures and how to use them
+          Advantages of Pandas
           <ul>
-            <li>If...If Else...Else</li>
-            <li>For Loops</li>
-            <li>While Loops</li>
+            <li>Store all data into one data structure</li>
+            <li>Analysis all data all at once</li>
+            <li>Complete complicated analysis easier using functions</li>
           </ul>
         </p>
         <h3 className="information-container-header">Materials</h3>
-        <a
-          href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-1/Lec-5-Python-Statements-CODE.ipynb"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <p className="lecture-link">
-            <i className="fa-brands fa-square-github fa-2xl"></i> Module 1:
-            Lec-5-Python-Statements-CODE.ipynb
-          </p>
-        </a>
+        <p>
+          <a
+            href="https://github.com/Feitumtum/CHBE469-Lecture-Code/blob/main/Module-2/Lec-2-Pandas.ipynb"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <p className="lecture-link">
+              <i className="fa-brands fa-square-github fa-2xl"></i> Module 2:
+              Lec-2-Pandas.ipynb
+            </p>
+          </a>
+        </p>
         <iframe
           title="Install vscode"
           src="https://www.youtube.com/embed/CKyboLKthI4"
@@ -81,14 +83,11 @@ function PythonStatements() {
         <CodeHighlighter code={code1} language="python"></CodeHighlighter>
       </div>
 
-      <NavFooter
-        backPath="/modules/python-data-structures"
-        forwardPath="/modules/functions"
-      />
+      <NavFooter backPath="/modules/numpy" forwardPath="" />
 
       <Footer></Footer>
     </>
   );
 }
 
-export default PythonStatements;
+export default Pandas;

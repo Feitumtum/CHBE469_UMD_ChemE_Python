@@ -7,8 +7,7 @@
   --font-color: rgb(64, 66, 68);
   --left-margin: 25px;
 }
-7
-h1 {
+7 h1 {
   margin-top: 20px;
 }
 
@@ -93,4 +92,15 @@ ol {
 
 .item {
   flex: 1; /* added */
+}
+
+.lecture-link {
+  color: black;
+  margin: 20px;
+}
+
+.lecture-link:hover {
+  color: #7844b4;
+  cursor: pointer;
+  text-decoration: none;
 }
